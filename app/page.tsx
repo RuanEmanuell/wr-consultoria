@@ -11,7 +11,7 @@ export default function Home() {
   useEffect(() => {
     document.addEventListener("scroll", () => {
       setTimeout(() => {
-        window.scrollY > 0 ? setNavbarHeight(0) : setNavbarHeight(64);
+        window.scrollY > 64 ? setNavbarHeight(0) : setNavbarHeight(64);
       }, 200);
     });
   }, []);
@@ -29,46 +29,47 @@ export default function Home() {
       <div className="flex flex-col">
         <nav
           className="w-full h-16" id="navbar">
-          <section className="bg-[#003366] flex flex-row justify-between transition-all ease-in-out duration-500 w-full fixed" style={{ height: `${navbarHeight}px`, opacity: navbarHeight == 0 ? "0" : "1" }}>
+          <section className="bg-white flex flex-row justify-between transition-all ease-in-out duration-500 w-full fixed" style={{ height: `${navbarHeight}px`, opacity: navbarHeight == 0 ? "0" : "1" }}>
             <Image
-              src="/logo.png"
+              src="/logo-default.png"
               className="w-24 h-16 p-4"
               alt="Logo"
-              width={1000}
-              height={1000}
+              width={10000}
+              height={10000}
             />
             <div className="m-auto w-1/2 max-w-xl hidden md:flex justify-between px-4">
-              <a className="font-semibold text-white text-lg" href="#screen-1">
+              <a className="font-semibold text-[#003366] text-lg" href="#screen-1">
                 Serviços
               </a>
-              <a className="font-semibold text-white text-lg" href="#screen-2">
+              <a className="font-semibold text-[#003366] text-lg" href="#screen-2">
                 Sobre nós
               </a>
-              <a className="font-semibold text-white text-lg" href="#screen-3">
+              <a className="font-semibold text-[#003366] text-lg" href="#screen-3">
                 Contato
               </a>
             </div>
             <div className="flex md:hidden my-auto mx-4 w-8 h-6 flex-col" onClick={() => setMobileMenuVisible(true)}>
-              <section className="bg-white h-1/3 w-full"></section>
-              <section className="bg-white h-1/3 w-full my-1"></section>
-              <section className="bg-white h-1/3 w-full"></section>
+              <section className="bg-[#003366] h-1/3 w-full"></section>
+              <section className="bg-[#003366] h-1/3 w-full my-1"></section>
+              <section className="bg-[#003366] h-1/3 w-full"></section>
             </div>
           </section>
         </nav>
         <main className="h-fit">
-          <div className="h-screen w-full" id="screen-0">
-            <h1 className="text-center text-[#003366] text-5xl font-bold pt-16">Lorem ipsum dolor sit amet</h1>
+          <div className="h-screen w-full bg-[#003366]" id="screen-0">
+            <h1 className="text-center text-white text-5xl font-bold pt-16">Lorem ipsum dolor sit amet</h1>
             <Image
-              src="/logo-default.png"
-              className="w-96 h-48 my-4 mx-8"
+              src="/logo.png"
+              className="w-80 h-44 my-4 mx-auto"
               alt="Logo"
-              width={1000}
-              height={1000}
+              width={10000}
+              height={10000}
             />
+           <h2 className="text-center text-white text-3xl font-bold pt-16 mx-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu eros urna. Maecenas dapibus elementum suscipit. Aenean eget pulvinar ex. Donec maximus vestibulum tristique. Nam nisl nibh, scelerisque ut dui vitae, scelerisque euismod lacus. Sed pretium quam viverra velit semper rhoncus. Duis blandit, erat a mollis luctus, risus enim tincidunt dolor, vitae mollis orci neque sed ligula. Aenean lacus mi, sagittis sed massa eget, ornare malesuada nunc. Vivamus consequat diam tincidunt libero consectetur ultrices. Maecenas blandit dui ac lectus congue molestie. </h2>
           </div>
-          <div className="h-screen w-full bg-[#003366]" id="screen-1"></div>
-          <div className="h-screen w-full" id="screen-2"></div>
-          <div className="h-screen w-full bg-[#003366]" id="screen-3"></div>
+          <div className="h-screen w-full" id="screen-1"></div>
+          <div className="h-screen w-full bg-[#003366]" id="screen-2"></div>
+          <div className="h-screen w-full" id="screen-3"></div>
         </main>
       </div>
       {mobileMenuVisible &&
