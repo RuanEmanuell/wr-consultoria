@@ -38,15 +38,21 @@ export default function Home() {
               height={10000}
             />
             <div className="m-auto w-1/2 max-w-xl hidden md:flex justify-between px-4">
-              <a className="font-semibold text-[#003366] text-lg" href="#screen-1">
-                Serviços
-              </a>
+              <button className="hover:border-2 rounded hover:bg-gray-100 w-1/3 h-12 transition-all ease-in-out">
+                <a className="font-semibold text-[#003366] text-lg" href="#screen-1">
+                  Serviços
+                </a>
+              </button>
+              <button className="hover:border-2 rounded hover:bg-gray-100 w-1/3 h-12 transition-all ease-in-out">
               <a className="font-semibold text-[#003366] text-lg" href="#screen-2">
                 Sobre nós
               </a>
+              </button>
+              <button className="hover:border-2 rounded hover:bg-gray-100 w-1/3 h-12 transition-all ease-in-out">
               <a className="font-semibold text-[#003366] text-lg" href="#screen-3">
                 Contato
               </a>
+              </button>
             </div>
             <div className="flex md:hidden my-auto mx-4 w-8 h-6 flex-col" onClick={() => setMobileMenuVisible(true)}>
               <section className="bg-[#003366] h-1/3 w-full"></section>
@@ -60,12 +66,12 @@ export default function Home() {
             <h1 className="text-center text-white text-5xl font-bold pt-16">Lorem ipsum dolor sit amet</h1>
             <Image
               src="/logo.png"
-              className="w-80 h-44 my-4 mx-auto"
+              className="w-96 mt-4 mx-auto"
               alt="Logo"
               width={10000}
               height={10000}
             />
-           <h2 className="text-center text-white text-3xl font-bold pt-16 mx-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu eros urna. Maecenas dapibus elementum suscipit. Aenean eget pulvinar ex. Donec maximus vestibulum tristique. Nam nisl nibh, scelerisque ut dui vitae, scelerisque euismod lacus. Sed pretium quam viverra velit semper rhoncus. Duis blandit, erat a mollis luctus, risus enim tincidunt dolor, vitae mollis orci neque sed ligula. Aenean lacus mi, sagittis sed massa eget, ornare malesuada nunc. Vivamus consequat diam tincidunt libero consectetur ultrices. Maecenas blandit dui ac lectus congue molestie. </h2>
+            <h2 className="text-center text-white text-3xl font-bold pt-16 mx-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu eros urna. Maecenas dapibus elementum suscipit. Aenean eget pulvinar ex. Donec maximus vestibulum tristique. Nam nisl nibh, scelerisque ut dui vitae, scelerisque euismod lacus. Sed pretium quam viverra velit semper rhoncus. Duis blandit, erat a mollis luctus, risus enim tincidunt dolor, vitae mollis orci neque sed ligula. Aenean lacus mi, sagittis sed massa eget, ornare malesuada nunc. Vivamus consequat diam tincidunt libero consectetur ultrices. Maecenas blandit dui ac lectus congue molestie. </h2>
           </div>
           <div className="h-screen w-full" id="screen-1"></div>
           <div className="h-screen w-full bg-[#003366]" id="screen-2"></div>
