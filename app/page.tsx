@@ -11,7 +11,11 @@ export default function Home() {
   useEffect(() => {
     document.addEventListener("scroll", () => {
       setTimeout(() => {
-        window.scrollY > 64 ? setNavbarHeight(0) : setNavbarHeight(64);
+        if(window.scrollY > 64){
+          setNavbarHeight(0)
+        } else {
+          setNavbarHeight(64);
+        }
       }, 200);
     });
   }, []);
