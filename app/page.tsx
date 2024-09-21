@@ -78,11 +78,11 @@ export default function Home() {
                     width={10000}
                     height={10000}
                   />
-                  <h2 className="text-center text-white text-2xl md:text-3xl font-bold py-2 mx-10">Somos uma empresa dedicada a trazer inovação e eficiência para o seu negócio. Nossa missão é ajudar empresas a alcançarem o máximo de produtividade, bem-estar e desempenho com soluções personalizadas e focadas nos resultados. Melhore os resultados da sua empresa agora, de onde você estiver. </h2>
+                  <h2 className="text-center text-white text-2xl 2xl:text-3xl font-bold py-2 mx-10">Somos uma empresa dedicada a trazer inovação e eficiência para o seu negócio. Nossa missão é ajudar empresas a alcançarem o máximo de produtividade, bem-estar e desempenho com soluções personalizadas e focadas nos resultados. Melhore os resultados da sua empresa agora, de onde você estiver. </h2>
                 </div>
                 <Image
                   src="/smartphone.png"
-                  className="w-144 mt-4 mx-auto"
+                  className="w-96 xl:w-144 mt-4 mx-auto"
                   alt="Logo"
                   width={10000}
                   height={10000}
@@ -111,7 +111,8 @@ export default function Home() {
             </div>
           </div>
           <div className="h-fit w-full bg-[#81a64e]" id="screen-2">
-            ,<h1 className="text-center text-white text-5xl md:text-7xl font-bold py-10">Sobre nós</h1>
+            <div className="max-w-10xl mx-auto">
+            <h1 className="text-center text-white text-5xl md:text-7xl font-bold py-10">Sobre nós</h1>
             <div className="flex flex-col xl:grid xl:grid-cols-2">
               <h2 className="text-center text-white text-2xl md:text-3xl font-bold py-2 mx-10">A WR Consultoria é uma parceira estratégica para empresas que buscam inovação e excelência em seus processos internos. Com uma equipe multidisciplinar, unimos expertise em gestão empresarial, saúde corporativa e neurociência aplicada aos negócios para entregar soluções únicas que realmente fazem a diferença. Nós te garantimos uma consultoria completa, totalmente focada na transformação organizacional.</h2>
               <div className="flex flex-col">
@@ -124,6 +125,7 @@ export default function Home() {
                   height={10000}
                 />
               </div>
+            </div>
             </div>
           </div>
           <div className="h-screen w-full" id="screen-3"></div>
