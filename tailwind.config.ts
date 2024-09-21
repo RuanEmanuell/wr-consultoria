@@ -12,8 +12,23 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      width: {
+        '128': '32rem', 
+        '144': '36rem', 
+        '196': '48rem', 
+      },
+      height: {
+        '128': '32rem', 
+        '144': '36rem', 
+      },
+      maxWidth: {
+        '8xl': '96rem',   
+        '9xl': '112rem',  
+        '10xl': '128rem',
+      },
     },
   },
   plugins: [],
 };
+
 export default config;
