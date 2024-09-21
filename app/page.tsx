@@ -86,8 +86,29 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="h-screen w-full" id="screen-1"></div>
-          <div className="h-screen w-full bg-[#81a64e]" id="screen-2"></div>
+          <div className="h-fit w-full" id="screen-1">
+            <h1 className="text-center text-5xl md:text-7xl font-bold py-10">Serviços</h1>
+            <div className="grid grid-cols-2 lg:grid-cols-3 pb-20">
+              <section className="border-2 rounded min-h-80 p-4 m-2 flex flex-col align-center">
+                <h4 className="font-semibold text-3xl text-center">📊</h4>
+                <h4 className="font-semibold text-3xl text-center mb-4">Gestão eficiente</h4>
+                <p className="my-auto text-center">Solucionamos desafios de gestão com estratégias inovadoras para otimizar processos, economizar tempo e aumentar a produtividade. Nossos especialistas trabalham junto com sua equipe para garantir uma gestão integrada e eficiente, visando resultados de alto impacto.</p>
+              </section>
+              <section className="border-2 rounded min-h-80 p-4 m-2 flex flex-col align-center">
+                <h4 className="font-semibold text-3xl text-center">🏥</h4>
+                <h4 className="font-semibold text-3xl text-center mb-4">Saúde Corporativa</h4>
+                <p className="my-auto text-center">Oferecemos programas exclusivos de bem-estar corporativo, focados na saúde física e mental dos colaboradores. Sabemos que empresas mais saudáveis são mais produtivas e engajadas, e por isso criamos ações que promovem a melhoria do ambiente de trabalho e a qualidade de vida.</p>
+              </section>
+              <section className="border-2 rounded min-h-80 p-4 m-2 flex flex-col align-center">
+                <h4 className="font-semibold text-3xl text-center">🧠</h4>
+                <h4 className="font-semibold text-3xl text-center mb-4">Neurociência nos Negócios</h4>
+                <p className="my-auto text-center">Aplicamos técnicas neurocientíficas para melhorar a performance empresarial. Com base em estudos de comportamento humano e processos cognitivos, ajudamos empresas a tomarem decisões mais assertivas, potencializando a eficiência e gerando resultados mais expressivos.</p>
+              </section>
+            </div>
+          </div>
+          <div className="h-screen w-full bg-[#81a64e]" id="screen-2">
+          <h1 className="text-center text-white text-5xl md:text-7xl font-bold pt-10">Sobre nós</h1>
+          </div>
           <div className="h-screen w-full" id="screen-3"></div>
         </main>
       </div>
