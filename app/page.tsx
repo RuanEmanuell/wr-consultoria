@@ -32,11 +32,11 @@ export default function Home() {
     <div className="h-fit">
       <div className="flex flex-col">
         <nav
-          className="w-full h-16" id="navbar">
+          className="w-full h-16 bg-[#81a64e]" id="navbar">
           <section className="bg-white flex flex-row justify-between transition-all ease-in-out duration-500 w-full fixed" style={{ height: `${navbarHeight}px`, opacity: navbarHeight == 0 ? "0" : "1" }}>
             <Image
               src="/logo-default.png"
-              className="w-16 h-16 my-auto"
+              className="w-8 h-8 my-auto mx-4"
               alt="Logo"
               width={10000}
               height={10000}
@@ -73,7 +73,7 @@ export default function Home() {
                 <div className="max-w-5xl mx-auto">
                   <Image
                     src="/logo.png"
-                    className="w-48 md:w-96 mt-4 mx-auto border-2"
+                    className="w-48 md:w-64 my-4 mx-auto"
                     alt="Logo"
                     width={10000}
                     height={10000}
@@ -82,7 +82,7 @@ export default function Home() {
                 </div>
                 <Image
                   src="/smartphone.png"
-                  className="w-128 mt-4 mx-auto"
+                  className="w-144 mt-4 mx-auto"
                   alt="Logo"
                   width={10000}
                   height={10000}
@@ -92,7 +92,7 @@ export default function Home() {
           </div>
           <div className="h-fit w-full" id="screen-1">
             <h1 className="text-center text-5xl md:text-7xl font-bold py-10">Serviços</h1>
-            <div className="grid grid-cols-2 lg:grid-cols-3 pb-20 mx-2 md:mx-10">
+            <div className="grid grid-cols-2 lg:grid-cols-3 pb-20 mx-2 md:mx-10 2xl:mx-auto max-w-10xl mx-auto">
               <section className="border-2 rounded min-h-80 p-4 m-2 flex flex-col align-center">
                 <h4 className="font-semibold text-xl lg:text-3xl text-center">📊</h4>
                 <h4 className="font-semibold text-xl lg:text-3xl text-center mb-4">Gestão eficiente</h4>
@@ -112,13 +112,13 @@ export default function Home() {
           </div>
           <div className="h-fit w-full bg-[#81a64e]" id="screen-2">
             ,<h1 className="text-center text-white text-5xl md:text-7xl font-bold py-10">Sobre nós</h1>
-            <div className="grid grid-cols-2">
-              <h2 className="text-center text-white text-2xl md:text-3xl font-bold py-2 mx-10">A WR Consultoria é uma parceira estratégica para empresas que buscam inovação e excelência em seus processos internos. Com uma equipe multidisciplinar, unimos expertise em gestão empresarial, saúde corporativa e neurociência aplicada aos negócios para entregar soluções únicas que realmente fazem a diferença. Nós te garantimos uma consultoria completa, focada na transformação organizacional.</h2>
+            <div className="flex flex-col xl:grid xl:grid-cols-2">
+              <h2 className="text-center text-white text-2xl md:text-3xl font-bold py-2 mx-10">A WR Consultoria é uma parceira estratégica para empresas que buscam inovação e excelência em seus processos internos. Com uma equipe multidisciplinar, unimos expertise em gestão empresarial, saúde corporativa e neurociência aplicada aos negócios para entregar soluções únicas que realmente fazem a diferença. Nós te garantimos uma consultoria completa, totalmente focada na transformação organizacional.</h2>
               <div className="flex flex-col">
                 <h2 className="text-center text-white text-2xl md:text-3xl font-bold py-2 mx-10">Nosso compromisso é com o sucesso de nossos clientes, utilizando métodos comprovados e adaptados às necessidades de cada empresa.</h2>
                 <Image
                   src="/person.png"
-                  className="w-64 pb-10 mx-auto"
+                  className="w-64 pt-2 mx-auto"
                   alt="Logo"
                   width={10000}
                   height={10000}
