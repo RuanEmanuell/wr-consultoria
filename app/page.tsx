@@ -73,7 +73,7 @@ export default function Home() {
                 <div className="max-w-5xl mx-auto">
                   <Image
                     src="/logo.png"
-                    className="w-48 md:w-64 my-4 mx-auto"
+                    className="w-48 md:w-64 my-8 mx-auto"
                     alt="Logo"
                     width={10000}
                     height={10000}
@@ -82,7 +82,7 @@ export default function Home() {
                 </div>
                 <Image
                   src="/smartphone.png"
-                  className="w-96 xl:w-144 mt-4 mx-auto"
+                  className="w-128 xl:w-144 mt-4 mx-auto"
                   alt="Logo"
                   width={10000}
                   height={10000}
@@ -114,16 +114,15 @@ export default function Home() {
             <div className="max-w-10xl mx-auto">
             <h1 className="text-center text-white text-5xl md:text-7xl font-bold py-10">Sobre nós</h1>
             <div className="flex flex-col xl:grid xl:grid-cols-2">
-              <h2 className="text-center text-white text-2xl md:text-3xl font-bold py-2 mx-10">A WR Consultoria é uma parceira estratégica para empresas que buscam inovação e excelência em seus processos internos. Com uma equipe multidisciplinar, unimos expertise em gestão empresarial, saúde corporativa e neurociência aplicada aos negócios para entregar soluções únicas que realmente fazem a diferença. Nós te garantimos uma consultoria completa, totalmente focada na transformação organizacional.</h2>
-              <div className="flex flex-col">
-                <h2 className="text-center text-white text-2xl md:text-3xl font-bold py-2 mx-10">Nosso compromisso é com o sucesso de nossos clientes, utilizando métodos comprovados e adaptados às necessidades de cada empresa.</h2>
-                <Image
-                  src="/person.png"
-                  className="w-64 pt-2 mx-auto"
-                  alt="Logo"
-                  width={10000}
-                  height={10000}
-                />
+              <div className="flex flex-col border-2 rounded w-96 h-128 my-4 mx-auto relative">
+                <section className="h-1/4 w-full absolute bottom-0 bg-gradient-to-b from-black to-transparent"></section>
+                 <Image
+                    src="/raquel.jpeg"
+                    className="w-full h-full mx-auto object-cover"
+                    alt="Logo"
+                    width={10000}
+                    height={10000}
+                  />
               </div>
             </div>
             </div>
