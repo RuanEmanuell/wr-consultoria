@@ -114,8 +114,7 @@ export default function Home() {
             <div className="max-w-10xl mx-auto">
             <h1 className="text-center text-white text-5xl md:text-7xl font-bold py-10">Sobre nós</h1>
             <div className="flex flex-col xl:grid xl:grid-cols-2">
-              <div className="flex flex-col border-2 rounded w-96 h-128 my-4 mx-auto relative">
-                <section className="h-1/4 w-full absolute bottom-0 bg-gradient-to-b from-black to-transparent"></section>
+              <div className="flex flex-col border-2 rounded w-96 h-72 my-4 mx-auto relative">
                  <Image
                     src="/raquel.jpeg"
                     className="w-full h-full mx-auto object-cover"
@@ -124,6 +123,7 @@ export default function Home() {
                     height={10000}
                   />
               </div>
+              <h2 className="text-center text-white text-xl xl:text-2xl font-bold py-2 mx-10">Somos</h2>
             </div>
             </div>
           </div>
