@@ -169,7 +169,7 @@ export default function Home() {
                   <div className="flex flex-col rounded w-96 h-128 xl:w-3/4 xl:h-4/5 xl:max-w-144 my-auto mx-auto">
                     <Image
                       src="/washington_e_raquel.jpeg"
-                      className="w-full h-full mx-auto object-cover border-4"
+                      className="w-full h-full mx-auto object-cover border-4 rounded"
                       alt="Logo"
                       width={10000}
                       height={10000}
@@ -183,11 +183,54 @@ export default function Home() {
                   </h2>
                 </div>
               </div>
-
-
             </div>
           </div>
-          <div className="h-screen w-full" id="screen-3"></div>
+          <div className="h-fit w-full pb-20" id="screen-4">
+            <h1 className="text-center text-5xl md:text-7xl font-bold py-10">Contato</h1>
+            <h2 className="text-center text-2xl md:text-4xl font-semiboold py-4">Você pode nos encontrar por aqui:</h2>
+            <section className="max-w-9xl flex flex-col">
+              <a className="border-4 border-[#81a64e] rounded w-128 h-32 mx-auto mt-4 bg-[#81a64e] flex items-center cursor-pointer hover:bg-gray-600 transition-all" href="https://wa.me/551533185825?text=Quero%20saber%20mais%20sobre%20como%20a%20WR%20Consultoria%20pode%20me%20ajudar!">
+                <Image
+                  src="/whatsapp.png"
+                  className="w-16 h-16 ml-4"
+                  alt="Logo"
+                  width={10000}
+                  height={10000}
+                />
+                <div className="text-white font-semibold text-xl xl:text-3xl mx-auto flex flex-col items-center">
+                  <h4>WhatsApp</h4>
+                  <p className="text-lg xl:text-2xl">+55 (15) 3318-5825</p>
+                </div>
+              </a>
+              <a className="border-4 border-[#81a64e] rounded w-128 h-32 mx-auto mt-4 flex items-center cursor-pointer hover:bg-gray-600 transition-all" href="https://www.instagram.com/wr.consultoriaegestao/">
+                <Image
+                  src="/instagram.png"
+                  className="w-16 h-16 ml-4"
+                  alt="Logo"
+                  width={10000}
+                  height={10000}
+                />
+                <div className="text-[#81a64e] font-semibold text-xl xl:text-3xl mx-auto flex flex-col items-center">
+                  <h4>Instagram</h4>
+                  <p className="text-lg xl:text-2xl">@wr.consultoriaegestao</p>
+                </div>
+              </a>
+              <a className="border-4 border-[#81a64e] rounded w-128 h-32 mx-auto mt-4 bg-[#81a64e] flex items-center cursor-pointer hover:bg-gray-600 transition-all" href="mailto:wr.c.saude@gmail.com.br?subject=Saber%20mais%20sobre%20a%20WR%20Consultoria%20&body=Quero%20saber%20mais%20sobre%20como%20a%20WR%20Consultoria%20pode%20me%20ajudar!">
+                <Image
+                  src="/email.png"
+                  className="w-16 h-12 ml-4"
+                  alt="Logo"
+                  width={10000}
+                  height={10000}
+                />
+                <div className="text-white font-semibold text-xl xl:text-3xl mx-auto flex flex-col items-center">
+                  <h4>E-mail</h4>
+                  <p className="text-lg xl:text-2xl">wr.c.saude@gmail.com</p>
+                </div>
+              </a>
+            </section>
+          </div>
+
         </main>
       </div>
       {mobileMenuVisible &&
