@@ -135,12 +135,12 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="mx-auto">
-                  <h2 className="text-center text-white text-xl xl:text-2xl font-bold py-5 xl:py-10 mx-10 xl:w-4/5 mt-24 xl:mt-0">Raquel Alencar atua como consultora e palestrante em diversas áreas da neurociência, com foco em gestão, neurobranding, neuromarketing e saúde corporativa. Além de desenvolver estratégias para otimizar processos e fortalecer marcas, Raquel oferece treinamento em mindfulness e inteligência emocional, promovendo o bem-estar e a saúde mental dos colaboradores. Sua abordagem combina ciência e práticas inovadoras para impulsionar a eficiência organizacional e o desenvolvimento humano nas empresas.</h2>
+                  <h2 className="text-center text-white text-xl xl:text-2xl font-bold py-5 xl:py-10 mx-10 lg:mx-auto xl:w-4/5 mt-24 xl:mt-0">Raquel Alencar atua como consultora e palestrante em diversas áreas da neurociência, com foco em gestão, neurobranding, neuromarketing e saúde corporativa. Além de desenvolver estratégias para otimizar processos e fortalecer marcas, Raquel oferece treinamento em mindfulness e inteligência emocional, promovendo o bem-estar e a saúde mental dos colaboradores. Sua abordagem combina ciência e práticas inovadoras para impulsionar a eficiência organizacional e o desenvolvimento humano nas empresas.</h2>
                 </div>
               </div>
               <div className="flex flex-col-reverse xl:grid xl:grid-cols-2 mb-6 xl:mb-0">
                 <div className="mx-auto">
-                  <h2 className="text-center text-white text-xl xl:text-2xl font-bold py-5 xl:py-10 mx-10 xl:w-4/5 mt-20 xl:mt-0">
+                  <h2 className="text-center text-white text-xl xl:text-2xl font-bold py-5 xl:py-10 mx-10 lg:mx-auto xl:w-4/5 mt-20 xl:mt-0">
                     Washington Alencar atua como consultor e palestrante com mais de 12 anos de experiência liderando equipes e conduzindo treinamentos. Especialista em gestão de pessoas, liderança e alta performance, sua trajetória é marcada por um compromisso contínuo com o desenvolvimento humano e organizacional. Washington capacita profissionais para alcançar seu máximo potencial, e entre suas experiências, destaca-se o curso “Space Experience” na NASA, focado em estratégias disruptivas e aprendizagem ativa.
                   </h2>
                 </div>
@@ -166,7 +166,7 @@ export default function Home() {
               </div>
               <div className="flex flex-col xl:grid xl:grid-cols-2 mb-6 xl:mb-0">
                 <div className="flex flex-col">
-                  <div className="flex flex-col rounded w-4/5 h-112 md:w-96 xl:h-4/5 my-auto mx-auto">
+                  <div className="flex flex-col rounded w-4/5 h-104 md:w-128 my-auto mx-auto">
                     <Image
                       src="/washington_e_raquel.jpeg"
                       className="w-full h-full mx-auto object-cover border-4 rounded"
@@ -177,7 +177,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="mx-auto flex items-center justify-center">
-                  <h2 className="text-center text-white text-xl xl:text-2xl font-bold py-5 mx-10 xl:w-4/5">
+                  <h2 className="text-center text-white text-xl xl:text-2xl font-bold py-5 mx-10 lg:mx-auto xl:w-4/5">
                     Washington Alencar e Raquel Alencar são os cofundadores da WR Consultoria, uma empresa renomada na área de desenvolvimento organizacional e de pessoas. Com vasta experiência e conhecimento, eles se destacam como especialistas em transformar a performance e a produtividade das empresas através de pessoas bem capacitadas.
                     A WR Consultoria, sob a liderança de Washington e Raquel, oferece soluções personalizadas que atendem às necessidades específicas de cada cliente. Eles são parceiros estratégicos para qualquer empresa que busca elevar seu nível de desempenho, promovendo um ambiente de trabalho mais eficiente e colaborativo.
                   </h2>
