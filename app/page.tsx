@@ -115,7 +115,7 @@ export default function Home() {
               </section>
             </div>
           </div>
-          <div className="h-fit w-full bg-[#81a64e] pb-10" id="screen-2">
+          <div className="h-fit w-full bg-[#81a64e] pb-4 xl:pb-10" id="screen-2">
             <div className="max-w-7xl mx-auto">
               <h1 className="text-center text-white text-5xl md:text-7xl font-bold py-10 mb-6">Sobre nós</h1>
               <div className="flex flex-col xl:grid xl:grid-cols-2 mb-6 xl:mb-16">
@@ -189,7 +189,7 @@ export default function Home() {
             <h1 className="text-center text-5xl md:text-7xl font-bold py-10">Contato</h1>
             <h2 className="text-center text-2xl md:text-4xl font-semiboold py-4">Você pode nos encontrar por aqui:</h2>
             <section className="max-w-9xl flex flex-col">
-              <a className="border-4 border-[#81a64e] rounded w-112 xl:w-128 h-32 mx-auto mt-4 bg-[#81a64e] flex items-center cursor-pointer hover:bg-gray-600 transition-all" href="https://wa.me/551533185825?text=Quero%20saber%20mais%20sobre%20como%20a%20WR%20Consultoria%20pode%20me%20ajudar!" target="_blank">
+              <a className="border-4 border-[#81a64e] rounded w-4/5 md:w-128 h-32 mx-auto mt-4 bg-[#81a64e] flex items-center cursor-pointer hover:bg-gray-600 transition-all" href="https://wa.me/551533185825?text=Quero%20saber%20mais%20sobre%20como%20a%20WR%20Consultoria%20pode%20me%20ajudar!" target="_blank">
                 <Image
                   src="/whatsapp.png"
                   className="w-16 h-16 ml-4"
@@ -202,7 +202,7 @@ export default function Home() {
                   <p className="text-xl xl:text-2xl">+55 (15) 3318-5825</p>
                 </div>
               </a>
-              <a className="border-4 border-[#81a64e] rounded w-112 xl:w-128 h-32 mx-auto mt-4 flex items-center cursor-pointer hover:bg-gray-600 transition-all" href="https://www.instagram.com/wr.consultoriaegestao/" target="_blank">
+              <a className="border-4 border-[#81a64e] rounded w-4/5 md:w-128 h-32 mx-auto mt-4 flex items-center cursor-pointer hover:bg-gray-600 transition-all" href="https://www.instagram.com/wr.consultoriaegestao/" target="_blank">
                 <Image
                   src="/instagram.png"
                   className="w-16 h-16 ml-4"
@@ -215,7 +215,7 @@ export default function Home() {
                   <p className="text-xl xl:text-2xl">@wr.consultoriaegestao</p>
                 </div>
               </a>
-              <a className="border-4 border-[#81a64e] rounded w-112 xl:w-128 h-32 mx-auto mt-4 bg-[#81a64e] flex items-center cursor-pointer hover:bg-gray-600 transition-all" href="mailto:wr.c.saude@gmail.com.br?subject=Saber%20mais%20sobre%20a%20WR%20Consultoria%20&body=Quero%20saber%20mais%20sobre%20como%20a%20WR%20Consultoria%20pode%20me%20ajudar!" target="_blank">
+              <a className="border-4 border-[#81a64e] rounded w-4/5 md:w-128 h-32 mx-auto mt-4 bg-[#81a64e] flex items-center cursor-pointer hover:bg-gray-600 transition-all" href="mailto:wr.c.saude@gmail.com.br?subject=Saber%20mais%20sobre%20a%20WR%20Consultoria%20&body=Quero%20saber%20mais%20sobre%20como%20a%20WR%20Consultoria%20pode%20me%20ajudar!" target="_blank">
                 <Image
                   src="/email.png"
                   className="w-16 h-12 ml-4"
