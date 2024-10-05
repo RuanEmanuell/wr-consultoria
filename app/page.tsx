@@ -120,7 +120,7 @@ export default function Home() {
               <h1 className="text-center text-white text-5xl md:text-7xl font-bold py-10 mb-6">Sobre nós</h1>
               <div className="flex flex-col xl:grid xl:grid-cols-2 mb-6 xl:mb-16">
                 <div className="flex flex-col">
-                  <div className="flex flex-col rounded w-96 h-72 xl:w-3/4 xl:h-full xl:max-w-144 my-auto mx-auto relative">
+                  <div className="flex flex-col rounded w-4/5 h-72 xl:w-3/4 xl:h-full xl:max-w-144 my-auto mx-auto relative">
                     <Image
                       src="/raquel.jpeg"
                       className="w-full h-full mx-auto object-cover"
@@ -128,7 +128,7 @@ export default function Home() {
                       width={10000}
                       height={10000}
                     />
-                    <section className="flex flex-col bg-white w-96 xl:w-full mx-auto pb-2">
+                    <section className="flex flex-col bg-white w-full xl:w-full mx-auto pb-2">
                       <figcaption className="text-center font-semibold text-2xl mt-2">Raquel Alencar</figcaption>
                       <figcaption className="text-center text-gray-500 font-semibold text-lg mx-2">Especialista em Neurociência do Desenvolvimento Humano</figcaption>
                     </section>
@@ -145,7 +145,7 @@ export default function Home() {
                   </h2>
                 </div>
                 <div className="flex flex-col">
-                  <div className="flex flex-col rounded w-96 h-72 xl:w-3/4 xl:h-full xl:max-w-144 my-auto mx-auto relative">
+                  <div className="flex flex-col rounded w-4/5 h-72 xl:w-3/4 xl:h-full xl:max-w-144 my-auto mx-auto relative">
                     <Image
                       src="/washington.jpeg"
                       className="w-full h-full mx-auto object-cover"
@@ -153,7 +153,7 @@ export default function Home() {
                       width={10000}
                       height={10000}
                     />
-                    <section className="flex flex-col bg-white w-96 xl:w-full mx-auto pb-2">
+                    <section className="flex flex-col bg-white w-full xl:w-full mx-auto pb-2">
                       <figcaption className="text-center font-semibold text-2xl mt-2">
                         Washington Alencar
                       </figcaption>
@@ -166,7 +166,7 @@ export default function Home() {
               </div>
               <div className="flex flex-col xl:grid xl:grid-cols-2 mb-6 xl:mb-0">
                 <div className="flex flex-col">
-                  <div className="flex flex-col rounded w-96 h-128 xl:w-3/4 xl:h-4/5 xl:max-w-144 my-auto mx-auto">
+                  <div className="flex flex-col rounded w-4/5 h-112 xl:w-3/4 xl:h-4/5 xl:max-w-144 my-auto mx-auto">
                     <Image
                       src="/washington_e_raquel.jpeg"
                       className="w-full h-full mx-auto object-cover border-4 rounded"
