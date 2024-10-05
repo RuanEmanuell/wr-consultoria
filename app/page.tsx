@@ -67,7 +67,7 @@ export default function Home() {
         </nav>
         <main className="h-fit">
           <div className="h-fit w-full bg-[#81a64e]" id="screen-0">
-            <div className="max-w-10xl mx-auto">
+            <div className="max-w-9xl mx-auto">
               <h1 className="text-center text-white text-5xl xl:text-7xl font-bold py-10">WR Consultoria</h1>
               <div className="flex flex-col xl:grid xl:grid-cols-2">
                 <div className="max-w-5xl mx-auto">
@@ -92,7 +92,7 @@ export default function Home() {
           </div>
           <div className="h-fit w-full" id="screen-1">
             <h1 className="text-center text-5xl md:text-7xl font-bold py-10">Serviços</h1>
-            <div className="grid grid-cols-2 lg:grid-cols-3 pb-20 mx-2 md:mx-10 2xl:mx-auto max-w-10xl mx-auto">
+            <div className="grid grid-cols-2 xl:grid-cols-4 pb-20 mx-2 md:mx-10 2xl:mx-auto max-w-9xl mx-auto">
               <section className="border-2 rounded min-h-80 p-4 m-2 flex flex-col align-center">
                 <h4 className="font-semibold text-xl lg:text-3xl text-center">📊</h4>
                 <h4 className="font-semibold text-xl lg:text-3xl text-center mb-4">Gestão eficiente</h4>
@@ -108,23 +108,83 @@ export default function Home() {
                 <h4 className="font-semibold text-xl lg:text-3xl text-center mb-4">Neurociência nos Negócios</h4>
                 <p className="my-auto text-center">Aplicamos técnicas neurocientíficas para melhorar a performance empresarial. Com base em estudos de comportamento humano e processos cognitivos, ajudamos empresas a tomarem decisões mais assertivas.</p>
               </section>
+              <section className="border-2 rounded min-h-80 p-4 m-2 flex flex-col align-center">
+                <h4 className="font-semibold text-xl lg:text-3xl text-center">🤝</h4>
+                <h4 className="font-semibold text-xl lg:text-3xl text-center mb-4">Relacionamento com Clientes</h4>
+                <p className="my-auto text-center">Aprimoramos a comunicação e o atendimento ao cliente, garantindo experiências positivas e fidelização. Acreditamos que um bom relacionamento é a chave para o sucesso duradouro nos negócios.</p>
+              </section>
             </div>
           </div>
-          <div className="h-fit w-full bg-[#81a64e]" id="screen-2">
-            <div className="max-w-10xl mx-auto">
-            <h1 className="text-center text-white text-5xl md:text-7xl font-bold py-10">Sobre nós</h1>
-            <div className="flex flex-col xl:grid xl:grid-cols-2">
-              <div className="flex flex-col border-2 rounded w-96 h-72 my-4 mx-auto relative">
-                 <Image
-                    src="/raquel.jpeg"
-                    className="w-full h-full mx-auto object-cover"
-                    alt="Logo"
-                    width={10000}
-                    height={10000}
-                  />
+          <div className="h-fit w-full bg-[#81a64e] pb-10" id="screen-2">
+            <div className="max-w-7xl mx-auto">
+              <h1 className="text-center text-white text-5xl md:text-7xl font-bold py-10 mb-6">Sobre nós</h1>
+              <div className="flex flex-col xl:grid xl:grid-cols-2 mb-6 xl:mb-16">
+                <div className="flex flex-col">
+                  <div className="flex flex-col rounded w-96 h-72 xl:w-3/4 xl:h-full xl:max-w-144 my-auto mx-auto relative">
+                    <Image
+                      src="/raquel.jpeg"
+                      className="w-full h-full mx-auto object-cover"
+                      alt="Logo"
+                      width={10000}
+                      height={10000}
+                    />
+                    <section className="flex flex-col bg-white w-96 xl:w-full mx-auto pb-2">
+                      <figcaption className="text-center font-semibold text-2xl mt-2">Raquel Alencar</figcaption>
+                      <figcaption className="text-center text-gray-500 font-semibold text-lg mx-2">Especialista em Neurociência do Desenvolvimento Humano</figcaption>
+                    </section>
+                  </div>
+                </div>
+                <div className="mx-auto">
+                  <h2 className="text-center text-white text-xl xl:text-2xl font-bold py-5 xl:py-10 mx-10 xl:w-4/5 mt-24 xl:mt-0">Raquel Alencar atua como consultora e palestrante em diversas áreas da neurociência, com foco em gestão, neurobranding, neuromarketing e saúde corporativa. Além de desenvolver estratégias para otimizar processos e fortalecer marcas, Raquel oferece treinamento em mindfulness e inteligência emocional, promovendo o bem-estar e a saúde mental dos colaboradores. Sua abordagem combina ciência e práticas inovadoras para impulsionar a eficiência organizacional e o desenvolvimento humano nas empresas.</h2>
+                </div>
               </div>
-              <h2 className="text-center text-white text-xl xl:text-2xl font-bold py-2 mx-10">Somos</h2>
-            </div>
+              <div className="flex flex-col-reverse xl:grid xl:grid-cols-2 mb-6 xl:mb-0">
+                <div className="mx-auto">
+                  <h2 className="text-center text-white text-xl xl:text-2xl font-bold py-5 xl:py-10 mx-10 xl:w-4/5 mt-20 xl:mt-0">
+                    Washington Alencar atua como consultor e palestrante com mais de 12 anos de experiência liderando equipes e conduzindo treinamentos. Especialista em gestão de pessoas, liderança e alta performance, sua trajetória é marcada por um compromisso contínuo com o desenvolvimento humano e organizacional. Washington capacita profissionais para alcançar seu máximo potencial, e entre suas experiências, destaca-se o curso “Space Experience” na NASA, focado em estratégias disruptivas e aprendizagem ativa.
+                  </h2>
+                </div>
+                <div className="flex flex-col">
+                  <div className="flex flex-col rounded w-96 h-72 xl:w-3/4 xl:h-full xl:max-w-144 my-auto mx-auto relative">
+                    <Image
+                      src="/washington.jpeg"
+                      className="w-full h-full mx-auto object-cover"
+                      alt="Logo"
+                      width={10000}
+                      height={10000}
+                    />
+                    <section className="flex flex-col bg-white w-96 xl:w-full mx-auto pb-2">
+                      <figcaption className="text-center font-semibold text-2xl mt-2">
+                        Washington Alencar
+                      </figcaption>
+                      <figcaption className="text-center text-gray-500 font-semibold text-lg mx-2">
+                        Mestre em Educação | Especialista em Gestão de Pessoas e Liderança
+                      </figcaption>
+                    </section>
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col xl:grid xl:grid-cols-2 mb-6 xl:mb-0">
+                <div className="flex flex-col">
+                  <div className="flex flex-col rounded w-96 h-128 xl:w-3/4 xl:h-4/5 xl:max-w-144 my-auto mx-auto">
+                    <Image
+                      src="/washington_e_raquel.jpeg"
+                      className="w-full h-full mx-auto object-cover border-4"
+                      alt="Logo"
+                      width={10000}
+                      height={10000}
+                    />
+                  </div>
+                </div>
+                <div className="mx-auto flex items-center justify-center">
+                  <h2 className="text-center text-white text-xl xl:text-2xl font-bold py-5 mx-10 xl:w-4/5">
+                    Washington Alencar e Raquel Alencar são os cofundadores da WR Consultoria, uma empresa renomada na área de desenvolvimento organizacional e de pessoas. Com vasta experiência e conhecimento, eles se destacam como especialistas em transformar a performance e a produtividade das empresas através de pessoas bem capacitadas.
+                    A WR Consultoria, sob a liderança de Washington e Raquel, oferece soluções personalizadas que atendem às necessidades específicas de cada cliente. Eles são parceiros estratégicos para qualquer empresa que busca elevar seu nível de desempenho, promovendo um ambiente de trabalho mais eficiente e colaborativo.
+                  </h2>
+                </div>
+              </div>
+
+
             </div>
           </div>
           <div className="h-screen w-full" id="screen-3"></div>
