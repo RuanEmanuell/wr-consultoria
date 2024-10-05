@@ -120,7 +120,7 @@ export default function Home() {
               <h1 className="text-center text-white text-5xl md:text-7xl font-bold py-10 mb-6">Sobre nós</h1>
               <div className="flex flex-col xl:grid xl:grid-cols-2 mb-6 xl:mb-16">
                 <div className="flex flex-col">
-                  <div className="flex flex-col rounded w-4/5 h-72 xl:w-3/4 xl:h-full xl:max-w-144 my-auto mx-auto relative">
+                  <div className="flex flex-col rounded w-4/5 h-72 md:w-96 xl:h-full my-auto mx-auto relative">
                     <Image
                       src="/raquel.jpeg"
                       className="w-full h-full mx-auto object-cover"
@@ -145,7 +145,7 @@ export default function Home() {
                   </h2>
                 </div>
                 <div className="flex flex-col">
-                  <div className="flex flex-col rounded w-4/5 h-72 xl:w-3/4 xl:h-full xl:max-w-144 my-auto mx-auto relative">
+                  <div className="flex flex-col rounded w-4/5 h-72 md:w-96 xl:h-full my-auto mx-auto relative">
                     <Image
                       src="/washington.jpeg"
                       className="w-full h-full mx-auto object-cover"
@@ -166,7 +166,7 @@ export default function Home() {
               </div>
               <div className="flex flex-col xl:grid xl:grid-cols-2 mb-6 xl:mb-0">
                 <div className="flex flex-col">
-                  <div className="flex flex-col rounded w-4/5 h-112 xl:w-3/4 xl:h-4/5 xl:max-w-144 my-auto mx-auto">
+                  <div className="flex flex-col rounded w-4/5 h-112 md:w-96 xl:h-4/5 my-auto mx-auto">
                     <Image
                       src="/washington_e_raquel.jpeg"
                       className="w-full h-full mx-auto object-cover border-4 rounded"
@@ -188,7 +188,7 @@ export default function Home() {
           <div className="h-fit w-full pb-20" id="screen-4">
             <h1 className="text-center text-5xl md:text-7xl font-bold py-10">Contato</h1>
             <h2 className="text-center text-2xl md:text-4xl font-semiboold py-4">Você pode nos encontrar por aqui:</h2>
-            <section className="max-w-9xl flex flex-col">
+            <section className="max-w-9xl flex flex-col mx-auto">
               <a className="border-4 border-[#81a64e] rounded w-4/5 md:w-128 h-32 mx-auto mt-4 bg-[#81a64e] flex items-center cursor-pointer hover:bg-gray-600 transition-all" href="https://wa.me/551533185825?text=Quero%20saber%20mais%20sobre%20como%20a%20WR%20Consultoria%20pode%20me%20ajudar!" target="_blank">
                 <Image
                   src="/whatsapp.png"
