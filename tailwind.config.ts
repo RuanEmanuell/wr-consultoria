@@ -20,8 +20,11 @@ const config: Config = {
         '196': '48rem', 
       },
       height: {
+        '104': '26rem',
+        '112': '28rem',
         '128': '32rem', 
         '144': '36rem', 
+        '196': '48rem', 
       },
       maxWidth: {
         '8xl': '96rem',   
