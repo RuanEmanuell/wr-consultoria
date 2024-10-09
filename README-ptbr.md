@@ -1,12 +1,12 @@
 # Veja a versão em Português <a href="README-ptbr.md">aqui</a>
 
-## WR-Consulting
+## WR-Consultoria
 
 ### O que é isso? 🤔
 Uma landing page para uma empresa de Consultoria, projeto feito como Freelance.
 
 ### Onde posso acessá-lo? 🖥
-You can acess it <a href="https://wr-consultoria.vercel.app">here</a>
+Você pode acessá-lo <a href="https://wr-consultoria.vercel.app">aqui</a>
 
 ### Quais tecnologias foram utilizadas para construí-lo? 🚀
 <table><tr><td style="padding: 5px;">
