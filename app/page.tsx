@@ -41,24 +41,29 @@ export default function Home() {
               width={10000}
               height={10000}
             />
-            <div className="m-auto w-1/2 max-w-xl hidden md:flex justify-between px-4">
-              <button className="hover:border-2 rounded hover:bg-gray-100 w-1/3 h-12 transition-all ease-in-out">
+            <div className="m-auto w-3/4 max-w-2xl hidden lg:flex justify-between px-4">
+              <button className="hover:border-2 rounded hover:bg-gray-100 w-full h-12 transition-all ease-in-out">
                 <a className="font-semibold text-[#81a64e] text-lg" href="#screen-1">
                   Serviços
                 </a>
               </button>
-              <button className="hover:border-2 rounded hover:bg-gray-100 w-1/3 h-12 transition-all ease-in-out">
+              <button className="hover:border-2 rounded hover:bg-gray-100 w-full h-12 transition-all ease-in-out">
                 <a className="font-semibold text-[#81a64e] text-lg" href="#screen-2">
                   Sobre nós
                 </a>
               </button>
-              <button className="hover:border-2 rounded hover:bg-gray-100 w-1/3 h-12 transition-all ease-in-out">
+              <button className="hover:border-2 rounded hover:bg-gray-100 w-full h-12 transition-all ease-in-out">
                 <a className="font-semibold text-[#81a64e] text-lg" href="#screen-3">
                   Contato
                 </a>
               </button>
+              <button className="hover:border-2 rounded hover:bg-gray-100 w-full h-12 transition-all ease-in-out">
+                <a className="font-semibold text-[#81a64e] text-lg" href="#screen-4">
+                  Parceirias
+                </a>
+              </button>
             </div>
-            <div className="flex md:hidden my-auto mx-4 w-8 h-6 flex-col" onClick={() => setMobileMenuVisible(true)}>
+            <div className="flex lg:hidden my-auto mx-4 w-8 h-6 flex-col" onClick={() => setMobileMenuVisible(true)}>
               <section className="bg-[#81a64e] h-1/3 w-full"></section>
               <section className="bg-[#81a64e] h-1/3 w-full my-1"></section>
               <section className="bg-[#81a64e] h-1/3 w-full"></section>
@@ -79,7 +84,7 @@ export default function Home() {
                     height={10000}
                   />
                   <h2 className="text-center text-white text-2xl lg:text-xl xl:text-2xl 2xl:text-3xl font-bold py-2 mx-10">Somos uma empresa dedicada a trazer inovação e eficiência para o seu negócio. Nossa missão é ajudar empresas a alcançarem o máximo de produtividade, bem-estar e desempenho com soluções personalizadas e focadas nos resultados. Melhore os resultados da sua empresa agora, de onde você estiver. </h2>
-                  <a className="bg-white rounded-full w-3/4 md:w-96 h-32 mx-auto mt-4 bg-[#81a64e] flex justify-center items-center cursor-pointer text-2xl text-[#81a64e] font-bold text-center  hover:bg-gray-600 hover:text-white transition-all" href="https://wa.me/551533185825?text=Quero%20saber%20mais%20sobre%20como%20a%20WR%20Consultoria%20pode%20me%20ajudar!" target="_blank">
+                  <a className="bg-white rounded-full w-3/4 md:w-96 h-32 mx-auto mt-4 bg-[#81a64e] flex justify-center items-center cursor-pointer text-2xl md:text-3xl text-[#81a64e] font-bold text-center  hover:bg-gray-600 hover:text-white transition-all" href="https://wa.me/551533185825?text=Quero%20saber%20mais%20sobre%20como%20a%20WR%20Consultoria%20pode%20me%20ajudar!" target="_blank">
                     <h4 className="mx-auto px-5">Agende já sua reunião e conheça a WR</h4>
                   </a>
                 </div>
@@ -123,7 +128,7 @@ export default function Home() {
               <h1 className="text-center text-white text-5xl md:text-7xl font-bold py-10 mb-6">Sobre nós</h1>
               <div className="flex flex-col lg:grid lg:grid-cols-2 mb-6 lg:mb-0">
                 <div className="flex flex-col">
-                  <div className="flex flex-col rounded w-4/5 h-72 sm:w-96 lg:h-full my-auto mx-auto relative">
+                  <div className="flex flex-col rounded w-4/5 h-72 sm:w-96 md:h-full my-auto mx-auto relative">
                     <Image
                       src="/washington_e_raquel.jpeg"
                       className="w-full h-full mx-auto object-cover"
@@ -142,7 +147,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="mx-auto">
-                  <h2 className="text-center text-white text-xl xl:text-2xl font-bold py-5 lg:py-10 mx-10 lg:mx-auto lg:w-4/5 mt-24 lg:mt-0">Washington Alencar e Raquel Alencar são os cofundadores da WR Consultoria, uma empresa renomada na área de desenvolvimento organizacional e de pessoas. Com vasta experiência e conhecimento, eles se destacam como especialistas em transformar a performance e a produtividade das empresas através de pessoas bem capacitadas.
+                  <h2 className="text-center text-white text-xl xl:text-2xl font-bold py-5 lg:py-10 mx-10 lg:mx-auto lg:w-4/5 mt-24 md:mt-0">Washington Alencar e Raquel Alencar são os cofundadores da WR Consultoria, uma empresa renomada na área de desenvolvimento organizacional e de pessoas. Com vasta experiência e conhecimento, eles se destacam como especialistas em transformar a performance e a produtividade das empresas através de pessoas bem capacitadas.
                     A WR Consultoria, sob a liderança de Washington e Raquel, oferece soluções personalizadas que atendem às necessidades específicas de cada cliente. Eles são parceiros estratégicos para qualquer empresa que busca elevar seu nível de desempenho, promovendo um ambiente de trabalho mais eficiente e colaborativo.</h2>
                 </div>
               </div>
@@ -289,6 +294,11 @@ export default function Home() {
             <div className="border-b-2 w-full h-16 flex justify-center align-center" onClick={() => setMobileMenuVisible(false)}>
               <a className="font-semibold text-white text-xl m-auto" href="#screen-3">
                 Contato
+              </a>
+            </div>
+            <div className="border-b-2 w-full h-16 flex justify-center align-center" onClick={() => setMobileMenuVisible(false)}>
+              <a className="font-semibold text-white text-xl m-auto" href="#screen-4">
+                Parceirias
               </a>
             </div>
             <Image
