@@ -63,11 +63,11 @@ export default function Home() {
               </a>
               <a className="hover:border-2 rounded hover:bg-gray-100 w-full h-12 transition-all ease-in-out flex justify-center items-center" onClick={() => {scrollToEnd()}}>
                 <p className="font-semibold text-[#81a64e] text-lg">
-                  Parceirias
+                  Parcerias
                 </p>
               </a>
             </div>
-            <div className="flex lg:hidden my-auto mx-4 w-8 h-6 flex-col" onClick={() => setMobileMenuVisible(true)}>
+            <div className="flex lg:hidden my-auto mx-4 w-8 h-6 flex-col cursor-pointer" onClick={() => setMobileMenuVisible(true)}>
               <section className="bg-[#81a64e] h-1/3 w-full"></section>
               <section className="bg-[#81a64e] h-1/3 w-full my-1"></section>
               <section className="bg-[#81a64e] h-1/3 w-full"></section>
@@ -201,7 +201,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="h-fit w-full pb-20" id="screen-4">
+          <div className="h-fit w-full pb-20" id="screen-3">
             <h1 className="text-center text-5xl md:text-7xl font-bold py-10">Contato</h1>
             <h2 className="text-center text-2xl md:text-4xl font-semiboold py-4">Você pode nos encontrar por aqui:</h2>
             <section className="max-w-9xl flex flex-col mx-auto">
@@ -246,7 +246,7 @@ export default function Home() {
               </a>
             </section>
           </div>
-          <div className="h-fit w-full bg-[#81a64e]" id="screen-5">
+          <div className="h-fit w-full bg-[#81a64e]" id="screen-4">
             <div className="max-w-9xl mx-auto pb-10">
               <h1 className="text-center text-white text-5xl xl:text-7xl font-bold py-10">Empresas parceiras</h1>
               <section className="grid grid-cols-3 mx-auto max-w-5xl">
@@ -284,7 +284,7 @@ export default function Home() {
       </div>
       {mobileMenuVisible &&
         <div className="w-screen h-screen bg-black bg-opacity-40 absolute top-0 flex justify-end" id="mobile-menu">
-          <div className="bg-[#81a64e] w-1/3 min-w-48 max-w-72 h-full flex flex-col">
+          <div className="bg-[#81a64e] w-1/3 min-w-48 max-w-72 h-full flex flex-col cursor-pointer">
             <div className="border-y-2 w-full h-16 flex justify-center align-center" onClick={() => setMobileMenuVisible(false)}>
               <a className="font-semibold text-white text-xl m-auto" href="#screen-1">
                 Serviços
@@ -302,7 +302,7 @@ export default function Home() {
             </div>
             <div className="border-b-2 w-full h-16 flex justify-center align-center" onClick={() => {setMobileMenuVisible(false); scrollToEnd()}}>
               <a className="font-semibold text-white text-xl m-auto">
-                Parceirias
+                Parcerias
               </a>
             </div>
             <Image
