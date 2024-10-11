@@ -28,6 +28,10 @@ export default function Home() {
     }
   }, [mobileMenuVisible]);
 
+  function scrollToEnd() {
+    window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+  }
+
   return (
     <div className="h-fit">
       <div className="flex flex-col">
@@ -41,27 +45,27 @@ export default function Home() {
               width={10000}
               height={10000}
             />
-            <div className="m-auto w-3/4 max-w-2xl hidden lg:flex justify-between px-4">
-              <button className="hover:border-2 rounded hover:bg-gray-100 w-full h-12 transition-all ease-in-out">
-                <a className="font-semibold text-[#81a64e] text-lg" href="#screen-1">
+            <div className="m-auto w-3/4 max-w-2xl hidden lg:flex justify-between px-4 cursor-pointer">
+              <a className="hover:border-2 rounded hover:bg-gray-100 w-full h-12 transition-all ease-in-out flex justify-center items-center" href="#screen-1">
+                <p className="font-semibold text-[#81a64e] text-lg">
                   Serviços
-                </a>
-              </button>
-              <button className="hover:border-2 rounded hover:bg-gray-100 w-full h-12 transition-all ease-in-out">
-                <a className="font-semibold text-[#81a64e] text-lg" href="#screen-2">
+                </p>
+              </a>
+              <a className="hover:border-2 rounded hover:bg-gray-100 w-full h-12 transition-all ease-in-out flex justify-center items-center" href="#screen-2">
+                <p className="font-semibold text-[#81a64e] text-lg">
                   Sobre nós
-                </a>
-              </button>
-              <button className="hover:border-2 rounded hover:bg-gray-100 w-full h-12 transition-all ease-in-out">
-                <a className="font-semibold text-[#81a64e] text-lg" href="#screen-3">
+                </p>
+              </a>
+              <a className="hover:border-2 rounded hover:bg-gray-100 w-full h-12 transition-all ease-in-out flex justify-center items-center" href="#screen-3">
+                <p className="font-semibold text-[#81a64e] text-lg">
                   Contato
-                </a>
-              </button>
-              <button className="hover:border-2 rounded hover:bg-gray-100 w-full h-12 transition-all ease-in-out">
-                <a className="font-semibold text-[#81a64e] text-lg" href="#screen-4">
+                </p>
+              </a>
+              <a className="hover:border-2 rounded hover:bg-gray-100 w-full h-12 transition-all ease-in-out flex justify-center items-center" onClick={() => {scrollToEnd()}}>
+                <p className="font-semibold text-[#81a64e] text-lg">
                   Parceirias
-                </a>
-              </button>
+                </p>
+              </a>
             </div>
             <div className="flex lg:hidden my-auto mx-4 w-8 h-6 flex-col" onClick={() => setMobileMenuVisible(true)}>
               <section className="bg-[#81a64e] h-1/3 w-full"></section>
@@ -84,7 +88,7 @@ export default function Home() {
                     height={10000}
                   />
                   <h2 className="text-center text-white text-2xl lg:text-xl xl:text-2xl 2xl:text-3xl font-bold py-2 mx-10">Somos uma empresa dedicada a trazer inovação e eficiência para o seu negócio. Nossa missão é ajudar empresas a alcançarem o máximo de produtividade, bem-estar e desempenho com soluções personalizadas e focadas nos resultados. Melhore os resultados da sua empresa agora, de onde você estiver. </h2>
-                  <a className="bg-white rounded-full w-3/4 md:w-96 h-32 mx-auto mt-4 bg-[#81a64e] flex justify-center items-center cursor-pointer text-2xl md:text-3xl text-[#81a64e] font-bold text-center  hover:bg-gray-600 hover:text-white transition-all" href="https://wa.me/551533185825?text=Quero%20saber%20mais%20sobre%20como%20a%20WR%20Consultoria%20pode%20me%20ajudar!" target="_blank">
+                  <a className="bg-white rounded-full w-3/4 md:w-96 h-32 mx-auto mt-4 bg-[#81a64e] flex justify-center items-center cursor-pointer text-2xl xl:text-3xl text-[#81a64e] font-bold text-center  hover:bg-gray-600 hover:text-white transition-all" href="https://wa.me/551533185825?text=Quero%20saber%20mais%20sobre%20como%20a%20WR%20Consultoria%20pode%20me%20ajudar!" target="_blank">
                     <h4 className="mx-auto px-5">Agende já sua reunião e conheça a WR</h4>
                   </a>
                 </div>
@@ -296,8 +300,8 @@ export default function Home() {
                 Contato
               </a>
             </div>
-            <div className="border-b-2 w-full h-16 flex justify-center align-center" onClick={() => setMobileMenuVisible(false)}>
-              <a className="font-semibold text-white text-xl m-auto" href="#screen-4">
+            <div className="border-b-2 w-full h-16 flex justify-center align-center" onClick={() => {setMobileMenuVisible(false); scrollToEnd()}}>
+              <a className="font-semibold text-white text-xl m-auto">
                 Parceirias
               </a>
             </div>
