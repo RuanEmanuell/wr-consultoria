@@ -132,7 +132,7 @@ export default function Home() {
               <h1 className="text-center text-white text-5xl md:text-7xl font-bold py-10 mb-6">Sobre nós</h1>
               <div className="flex flex-col lg:grid lg:grid-cols-2 mb-6 lg:mb-0">
                 <div className="flex flex-col">
-                  <div className="flex flex-col rounded w-4/5 h-72 sm:w-96 md:h-full my-auto mx-auto relative">
+                  <div className="flex flex-col rounded w-4/5 h-72 sm:w-96 md:h-full lg:w-11/12 my-auto mx-auto relative">
                     <Image
                       src="/washington_e_raquel.jpeg"
                       className="w-full h-full mx-auto object-cover"
@@ -160,7 +160,7 @@ export default function Home() {
                   <h2 className="text-center text-white text-xl xl:text-2xl font-bold py-5 lg:py-10 mx-10 lg:mx-auto lg:w-4/5 mt-24 lg:mt-0">Raquel Alencar atua como consultora e palestrante em diversas áreas da neurociência, com foco em gestão, neurobranding, neuromarketing e saúde corporativa. Além de desenvolver estratégias para otimizar processos e fortalecer marcas, Raquel oferece treinamento em mindfulness e inteligência emocional, promovendo o bem-estar e a saúde mental dos colaboradores. Sua abordagem combina ciência e práticas inovadoras para impulsionar a eficiência organizacional e o desenvolvimento humano nas empresas.</h2>
                 </div>
                 <div className="flex flex-col">
-                  <div className="flex flex-col rounded w-4/5 h-72 sm:w-96 lg:h-full my-auto mx-auto relative">
+                  <div className="flex flex-col rounded w-4/5 h-72 sm:w-96 lg:h-full lg:w-11/12 my-auto mx-auto relative">
                     <Image
                       src="/raquel.jpeg"
                       className="w-full h-full mx-auto object-cover"
@@ -177,7 +177,7 @@ export default function Home() {
               </div>
               <div className="flex flex-col lg:grid lg:grid-cols-2 mb-10">
                 <div className="flex flex-col">
-                  <div className="flex flex-col rounded w-4/5 h-72 sm:w-96 lg:h-full my-auto mx-auto relative">
+                  <div className="flex flex-col rounded w-4/5 h-72 sm:w-96 lg:h-full lg:w-11/12 my-auto mx-auto relative">
                     <Image
                       src="/washington.jpeg"
                       className="w-full h-full mx-auto object-cover"
@@ -248,7 +248,7 @@ export default function Home() {
           </div>
           <div className="h-fit w-full bg-[#81a64e]" id="screen-4">
             <div className="max-w-9xl mx-auto pb-10">
-              <h1 className="text-center text-white text-5xl xl:text-7xl font-bold py-10">Empresas parceiras</h1>
+              <h1 className="text-center text-white text-5xl xl:text-7xl font-bold py-10">Algumas empresas parceiras</h1>
               <section className="grid grid-cols-3 mx-auto max-w-5xl">
                 <div className="w-36 h-24 md:w-48 md:h-32 mx-auto flex justify-center items-center">
                   <Image
