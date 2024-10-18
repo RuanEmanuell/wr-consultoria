@@ -6,7 +6,7 @@
 Uma landing page para uma empresa de Consultoria, projeto feito como Freelance.
 
 ### Onde posso acessá-lo? 🖥
-Você pode acessá-lo <a href="https://wr-consultoria.vercel.app">aqui</a>
+Você pode acessá-lo <a href="https://www.wr-consultoria.com">aqui</a>
 
 ### Quais tecnologias foram utilizadas para construí-lo? 🚀
 <table><tr><td style="padding: 5px;">

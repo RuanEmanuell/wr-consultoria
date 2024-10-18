@@ -6,7 +6,7 @@
 A landing page for a Consulting Company, project made as freelance.
 
 ### Where can I acess it? 🖥
-You can acess it <a href="https://wr-consultoria.vercel.app">here</a>
+You can acess it <a href="https://www.wr-consultoria.com">here</a>
 
 ### Which tecnologies were used to build it? 🚀 
 <table><tr><td style="padding: 5px;">
