@@ -102,29 +102,130 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="h-fit w-full" id="screen-1">
-            <h1 className="text-center text-5xl md:text-7xl font-bold py-10">Serviços</h1>
-            <div className="grid grid-cols-2 xl:grid-cols-4 pb-20 mx-2 md:mx-10 2xl:mx-auto max-w-9xl mx-auto">
-              <section className="border-2 rounded min-h-80 p-4 m-2 flex flex-col align-center">
-                <h4 className="font-semibold text-xl lg:text-3xl text-center">🎤</h4>
-                <h4 className="font-semibold text-xl lg:text-3xl text-center mb-4">Palestras</h4>
-                <p className="my-auto text-center">Nossas palestras vão além da inspiração. Elas provocam reflexão, alinham mentalidade e entregam conteúdo prático, aplicável desde o primeiro dia. Visão estratégica, tendências, comportamento e performance conectados à sua realidade.</p>
-              </section>
-              <section className="border-2 rounded min-h-80 p-4 m-2 flex flex-col align-center">
-                <h4 className="font-semibold text-xl lg:text-3xl text-center">👥</h4>
-                <h4 className="font-semibold text-xl lg:text-3xl text-center mb-4">Mentoria</h4>
-                <p className="my-auto text-center">Acompanhamento próximo e personalizado para líderes e executivos. Um espaço seguro e estratégico para pensar melhor e decidir melhor, com visão externa, prática e experiente para acelerar resultados.</p>
-              </section>
-              <section className="border-2 rounded min-h-80 p-4 m-2 flex flex-col align-center">
-                <h4 className="font-semibold text-xl lg:text-3xl text-center">🧩</h4>
-                <h4 className="font-semibold text-xl lg:text-3xl text-center mb-4">Consultoria</h4>
-                <p className="my-auto text-center">Prática, estruturada e orientada à execução. Diagnóstico claro, estruturação de processos, planos de ação objetivos com foco em eficiência, performance e crescimento sustentável.</p>
-              </section>
-              <section className="border-2 rounded min-h-80 p-4 m-2 flex flex-col align-center">
-                <h4 className="font-semibold text-xl lg:text-3xl text-center">🎯</h4>
-                <h4 className="font-semibold text-xl lg:text-3xl text-center mb-4">Conselho</h4>
-                <p className="my-auto text-center">Pensado para empresas que já cresceram e precisam de visão estratégica, governança e decisões maduras. Apoio estratégico recorrente para crescimento, expansão e movimentos estratégicos com segurança e responsabilidade.</p>
-              </section>
+          <div className="h-fit w-full bg-gradient-to-b from-gray-50 to-white" id="screen-1">
+            <div className="max-w-7xl mx-auto px-4">
+              <h1 className="text-center text-5xl md:text-7xl font-bold py-16 text-[#81a64e]">Serviços</h1>
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 pb-20">
+                <section className="bg-white border-l-4 border-[#81a64e] rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow">
+                  <div className="flex items-center justify-center mb-6">
+                    <h4 className="text-5xl mr-3">🎤</h4>
+                    <h4 className="font-bold text-3xl text-[#81a64e]">Palestras</h4>
+                  </div>
+                  <p className="text-gray-700 mb-6 leading-relaxed">Nossas palestras vão além da inspiração. Elas provocam reflexão, alinham mentalidade e entregam conteúdo prático, aplicável desde o primeiro dia.</p>
+                  <div className="bg-[#81a64e] bg-opacity-10 rounded-lg p-4 mb-6">
+                    <p className="font-bold text-[#81a64e] mb-3 text-center">O que entregamos:</p>
+                    <ul className="space-y-2 text-gray-700">
+                      <li className="flex items-start">
+                        <span className="font-bold text-[#81a64e] mr-2">•</span>
+                        <span>Visão estratégica de negócios</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="font-bold text-[#81a64e] mr-2">•</span>
+                        <span>Tendências, comportamento e performance</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="font-bold text-[#81a64e] mr-2">•</span>
+                        <span>Conteúdo conectado à realidade da empresa</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="font-bold text-[#81a64e] mr-2">•</span>
+                        <span>Engajamento, clareza e direcionamento</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <p className="text-[#81a64e] font-semibold text-sm text-center">👉 Ideal para eventos, convenções, encontros de liderança e times que precisam de alinhamento e energia para avançar.</p>
+                </section>
+
+                <section className="bg-white border-l-4 border-[#81a64e] rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow">
+                  <div className="flex items-center justify-center mb-6">
+                    <h4 className="text-5xl mr-3">🤝</h4>
+                    <h4 className="font-bold text-3xl text-[#81a64e]">Mentoria</h4>
+                  </div>
+                  <p className="text-gray-700 mb-6 leading-relaxed">A mentoria é um espaço seguro e estratégico para quem precisa pensar melhor para decidir melhor.</p>
+                  <div className="bg-[#81a64e] bg-opacity-10 rounded-lg p-4 mb-6">
+                    <p className="font-bold text-[#81a64e] mb-3 text-center">O que entregamos:</p>
+                    <ul className="space-y-2 text-gray-700">
+                      <li className="flex items-start">
+                        <span className="font-bold text-[#81a64e] mr-2">•</span>
+                        <span>Acompanhamento próximo e personalizado</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="font-bold text-[#81a64e] mr-2">•</span>
+                        <span>Clareza de prioridades e tomada de decisão</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="font-bold text-[#81a64e] mr-2">•</span>
+                        <span>Desenvolvimento de líderes e executivos</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="font-bold text-[#81a64e] mr-2">•</span>
+                        <span>Visão externa, prática e experiente</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <p className="text-[#81a64e] font-semibold text-sm text-center">👉 Ideal para empresários e líderes que querem acelerar resultados sem caminhar sozinhos.</p>
+                </section>
+
+                <section className="bg-white border-l-4 border-[#81a64e] rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow">
+                  <div className="flex items-center justify-center mb-6">
+                    <h4 className="text-5xl mr-3">🧩</h4>
+                    <h4 className="font-bold text-3xl text-[#81a64e]">Consultoria</h4>
+                  </div>
+                  <p className="text-gray-700 mb-6 leading-relaxed">Aqui entramos fundo no negócio. A consultoria da WR é prática, estruturada e orientada à execução.</p>
+                  <div className="bg-[#81a64e] bg-opacity-10 rounded-lg p-4 mb-6">
+                    <p className="font-bold text-[#81a64e] mb-3 text-center">O que entregamos:</p>
+                    <ul className="space-y-2 text-gray-700">
+                      <li className="flex items-start">
+                        <span className="font-bold text-[#81a64e] mr-2">•</span>
+                        <span>Diagnóstico claro do cenário atual</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="font-bold text-[#81a64e] mr-2">•</span>
+                        <span>Estruturação de processos e indicadores</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="font-bold text-[#81a64e] mr-2">•</span>
+                        <span>Planos de ação objetivos</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="font-bold text-[#81a64e] mr-2">•</span>
+                        <span>Foco em eficiência, performance e crescimento sustentável</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <p className="text-[#81a64e] font-semibold text-sm text-center">👉 Ideal para empresas que precisam organizar, escalar ou corrigir rotas com método e consistência.</p>
+                </section>
+
+                <section className="bg-white border-l-4 border-[#81a64e] rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow">
+                  <div className="flex items-center justify-center mb-6">
+                    <h4 className="text-5xl mr-3">🧠</h4>
+                    <h4 className="font-bold text-3xl text-[#81a64e]">Conselho</h4>
+                  </div>
+                  <p className="text-gray-700 mb-6 leading-relaxed">O conselho é pensado para empresas que já cresceram e agora precisam de visão estratégica, governança e decisões maduras.</p>
+                  <div className="bg-[#81a64e] bg-opacity-10 rounded-lg p-4 mb-6">
+                    <p className="font-bold text-[#81a64e] mb-3 text-center">O que entregamos:</p>
+                    <ul className="space-y-2 text-gray-700">
+                      <li className="flex items-start">
+                        <span className="font-bold text-[#81a64e] mr-2">•</span>
+                        <span>Apoio estratégico recorrente à liderança</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="font-bold text-[#81a64e] mr-2">•</span>
+                        <span>Análise crítica e imparcial das decisões</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="font-bold text-[#81a64e] mr-2">•</span>
+                        <span>Visão de médio e longo prazo</span>
+                      </li>
+                      <li className="flex items-start">
+                        <span className="font-bold text-[#81a64e] mr-2">•</span>
+                        <span>Preparação para crescimento, expansão ou movimentos estratégicos</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <p className="text-[#81a64e] font-semibold text-sm text-center">👉 Ideal para empresários que querem evoluir o negócio com mais segurança, visão e responsabilidade.</p>
+                </section>
+              </div>
             </div>
           </div>
           <div className="h-fit w-full bg-[#81a64e] pb-4 xl:pb-10" id="screen-2">
