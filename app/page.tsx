@@ -61,7 +61,7 @@ export default function Home() {
                   Contato
                 </p>
               </a>
-              <a className="hover:border-2 rounded hover:bg-gray-100 w-full h-12 transition-all ease-in-out flex justify-center items-center" onClick={() => {scrollToEnd()}}>
+              <a className="hover:border-2 rounded hover:bg-gray-100 w-full h-12 transition-all ease-in-out flex justify-center items-center" onClick={() => { scrollToEnd() }}>
                 <p className="font-semibold text-[#81a64e] text-lg">
                   Parcerias
                 </p>
@@ -77,17 +77,19 @@ export default function Home() {
         <main className="h-fit">
           <div className="h-fit w-full bg-[#81a64e]" id="screen-0">
             <div className="max-w-9xl mx-auto">
-              <h1 className="text-center text-white text-5xl xl:text-7xl font-bold py-10">WR Consultoria</h1>
+              <h1 className="text-center text-white text-5xl md:text-6xl xl:text-7xl font-bold py-10">WR Consultoria</h1>
               <div className="flex flex-col lg:grid lg:grid-cols-2">
                 <div className="max-w-5xl mx-auto">
                   <Image
                     src="/logo.png"
-                    className="w-48 xl:w-64 my-8 mx-auto"
+                    className="w-36 xl:w-48 my-8 mx-auto"
                     alt="Logo"
                     width={10000}
                     height={10000}
                   />
-                  <h2 className="text-center text-white text-2xl lg:text-xl xl:text-2xl 2xl:text-3xl font-bold py-2 mx-10">Somos uma empresa que acredita que bons resultados começam com pessoas bem direcionadas e processos inteligentes. Ajudamos empresas a trabalhar melhor, com mais produtividade, bem-estar e eficiência, por meio de soluções personalizadas e focadas no que realmente importa: resultado.</h2>
+                  <h2 className="text-center text-white text-lg lg:text-xl xl:text-2xl font-bold py-2 mx-10">Desempenho empresarial é humano antes de ser operacional.
+                    A WR Consultoria atua de forma integrada: gestão, liderança, saúde emocional e neurociência aplicada para transformar comportamento, fortalecer cultura e sustentar resultados reais.</h2>
+                                    <h2 className="text-center text-white text-lg lg:text-xl xl:text-2xl font-bold py-2 mx-10">Se a sua empresa está crescendo, mas a sua equipe não acompanha… se os conflitos aumentam e a produtividade oscila… o problema não é esforço.</h2>
                   <a className="bg-white rounded-full w-3/4 md:w-96 h-32 mx-auto mt-4 bg-[#81a64e] flex justify-center items-center cursor-pointer text-2xl xl:text-3xl text-[#81a64e] font-bold text-center  hover:bg-gray-600 hover:text-white transition-all" href="https://wa.me/551533185825?text=Quero%20saber%20mais%20sobre%20como%20a%20WR%20Consultoria%20pode%20me%20ajudar!" target="_blank">
                     <h4 className="mx-auto px-5">Agende já sua reunião e conheça a WR</h4>
                   </a>
@@ -104,17 +106,17 @@ export default function Home() {
           </div>
           <div className="h-fit w-full bg-gradient-to-b from-gray-50 to-white" id="screen-1">
             <div className="max-w-7xl mx-auto px-4">
-              <h1 className="text-center text-5xl md:text-7xl font-bold py-16 text-[#81a64e]">Serviços</h1>
+              <h1 className="text-center text-4xl md:text-5xl lg:text-7xl font-bold py-16 text-[#81a64e]">Serviços</h1>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 pb-20">
                 <section className="bg-white border-l-4 border-[#81a64e] rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow">
                   <div className="flex items-center justify-center mb-6">
-                    <h4 className="text-5xl mr-3">🎤</h4>
-                    <h4 className="font-bold text-3xl text-[#81a64e]">Palestras</h4>
+                    <h4 className="text-4xl md:text-5xl mr-3">🎤</h4>
+                    <h4 className="font-bold text-2xl md:text-3xl text-[#81a64e]">Palestras</h4>
                   </div>
-                  <p className="text-gray-700 mb-6 leading-relaxed">Nossas palestras vão além da inspiração. Elas provocam reflexão, alinham mentalidade e entregam conteúdo prático, aplicável desde o primeiro dia.</p>
+                  <p className="text-gray-700 mb-6 leading-relaxed text-base md:text-base">Nossas palestras vão além da inspiração. Elas provocam reflexão, alinham mentalidade e entregam conteúdo prático, aplicável desde o primeiro dia.</p>
                   <div className="bg-[#81a64e] bg-opacity-10 rounded-lg p-4 mb-6">
-                    <p className="font-bold text-[#81a64e] mb-3 text-center">O que entregamos:</p>
-                    <ul className="space-y-2 text-gray-700">
+                    <p className="font-bold text-[#81a64e] mb-3 text-center text-base md:text-base">O que entregamos:</p>
+                    <ul className="space-y-2 text-gray-700 text-sm md:text-sm">
                       <li className="flex items-start">
                         <span className="font-bold text-[#81a64e] mr-2">•</span>
                         <span>Visão estratégica de negócios</span>
@@ -133,18 +135,18 @@ export default function Home() {
                       </li>
                     </ul>
                   </div>
-                  <p className="text-[#81a64e] font-semibold text-sm text-center">👉 Ideal para eventos, convenções, encontros de liderança e times que precisam de alinhamento e energia para avançar.</p>
+                  <p className="text-[#81a64e] font-semibold text-sm md:text-sm text-center">👉 Ideal para eventos, convenções, encontros de liderança e times que precisam de alinhamento e energia para avançar.</p>
                 </section>
 
                 <section className="bg-white border-l-4 border-[#81a64e] rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow">
                   <div className="flex items-center justify-center mb-6">
-                    <h4 className="text-5xl mr-3">🤝</h4>
-                    <h4 className="font-bold text-3xl text-[#81a64e]">Mentoria</h4>
+                    <h4 className="text-4xl md:text-5xl mr-3">🤝</h4>
+                    <h4 className="font-bold text-2xl md:text-3xl text-[#81a64e]">Mentoria</h4>
                   </div>
-                  <p className="text-gray-700 mb-6 leading-relaxed">A mentoria é um espaço seguro e estratégico para quem precisa pensar melhor para decidir melhor.</p>
+                  <p className="text-gray-700 mb-6 leading-relaxed text-base md:text-base">A mentoria é um espaço seguro e estratégico para quem precisa pensar melhor para decidir melhor.</p>
                   <div className="bg-[#81a64e] bg-opacity-10 rounded-lg p-4 mb-6">
-                    <p className="font-bold text-[#81a64e] mb-3 text-center">O que entregamos:</p>
-                    <ul className="space-y-2 text-gray-700">
+                    <p className="font-bold text-[#81a64e] mb-3 text-center text-base md:text-base">O que entregamos:</p>
+                    <ul className="space-y-2 text-gray-700 text-sm md:text-sm">
                       <li className="flex items-start">
                         <span className="font-bold text-[#81a64e] mr-2">•</span>
                         <span>Acompanhamento próximo e personalizado</span>
@@ -163,18 +165,18 @@ export default function Home() {
                       </li>
                     </ul>
                   </div>
-                  <p className="text-[#81a64e] font-semibold text-sm text-center">👉 Ideal para empresários e líderes que querem acelerar resultados sem caminhar sozinhos.</p>
+                  <p className="text-[#81a64e] font-semibold text-sm md:text-sm text-center">👉 Ideal para empresários e líderes que querem acelerar resultados sem caminhar sozinhos.</p>
                 </section>
 
                 <section className="bg-white border-l-4 border-[#81a64e] rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow">
                   <div className="flex items-center justify-center mb-6">
-                    <h4 className="text-5xl mr-3">🧩</h4>
-                    <h4 className="font-bold text-3xl text-[#81a64e]">Consultoria</h4>
+                    <h4 className="text-4xl md:text-5xl mr-3">🧩</h4>
+                    <h4 className="font-bold text-2xl md:text-3xl text-[#81a64e]">Consultoria</h4>
                   </div>
-                  <p className="text-gray-700 mb-6 leading-relaxed">Aqui entramos fundo no negócio. A consultoria da WR é prática, estruturada e orientada à execução.</p>
+                  <p className="text-gray-700 mb-6 leading-relaxed text-base md:text-base">Aqui entramos fundo no negócio. A consultoria da WR é prática, estruturada e orientada à execução.</p>
                   <div className="bg-[#81a64e] bg-opacity-10 rounded-lg p-4 mb-6">
-                    <p className="font-bold text-[#81a64e] mb-3 text-center">O que entregamos:</p>
-                    <ul className="space-y-2 text-gray-700">
+                    <p className="font-bold text-[#81a64e] mb-3 text-center text-base md:text-base">O que entregamos:</p>
+                    <ul className="space-y-2 text-gray-700 text-sm md:text-sm">
                       <li className="flex items-start">
                         <span className="font-bold text-[#81a64e] mr-2">•</span>
                         <span>Diagnóstico claro do cenário atual</span>
@@ -193,18 +195,18 @@ export default function Home() {
                       </li>
                     </ul>
                   </div>
-                  <p className="text-[#81a64e] font-semibold text-sm text-center">👉 Ideal para empresas que precisam organizar, escalar ou corrigir rotas com método e consistência.</p>
+                  <p className="text-[#81a64e] font-semibold text-sm md:text-sm text-center">👉 Ideal para empresas que precisam organizar, escalar ou corrigir rotas com método e consistência.</p>
                 </section>
 
                 <section className="bg-white border-l-4 border-[#81a64e] rounded-lg shadow-lg p-8 hover:shadow-xl transition-shadow">
                   <div className="flex items-center justify-center mb-6">
-                    <h4 className="text-5xl mr-3">🧠</h4>
-                    <h4 className="font-bold text-3xl text-[#81a64e]">Conselho</h4>
+                    <h4 className="text-4xl md:text-5xl mr-3">🧠</h4>
+                    <h4 className="font-bold text-2xl md:text-3xl text-[#81a64e]">Conselho</h4>
                   </div>
-                  <p className="text-gray-700 mb-6 leading-relaxed">O conselho é pensado para empresas que já cresceram e agora precisam de visão estratégica, governança e decisões maduras.</p>
+                  <p className="text-gray-700 mb-6 leading-relaxed text-base md:text-base">O conselho é pensado para empresas que já cresceram e agora precisam de visão estratégica, governança e decisões maduras.</p>
                   <div className="bg-[#81a64e] bg-opacity-10 rounded-lg p-4 mb-6">
-                    <p className="font-bold text-[#81a64e] mb-3 text-center">O que entregamos:</p>
-                    <ul className="space-y-2 text-gray-700">
+                    <p className="font-bold text-[#81a64e] mb-3 text-center text-base md:text-base">O que entregamos:</p>
+                    <ul className="space-y-2 text-gray-700 text-sm md:text-sm">
                       <li className="flex items-start">
                         <span className="font-bold text-[#81a64e] mr-2">•</span>
                         <span>Apoio estratégico recorrente à liderança</span>
@@ -223,22 +225,22 @@ export default function Home() {
                       </li>
                     </ul>
                   </div>
-                  <p className="text-[#81a64e] font-semibold text-sm text-center">👉 Ideal para empresários que querem evoluir o negócio com mais segurança, visão e responsabilidade.</p>
+                  <p className="text-[#81a64e] font-semibold text-sm md:text-sm text-center">👉 Ideal para empresários que querem evoluir o negócio com mais segurança, visão e responsabilidade.</p>
                 </section>
               </div>
             </div>
           </div>
           <div className="h-fit w-full bg-[#81a64e] pb-4 xl:pb-10" id="screen-2">
             <div className="max-w-7xl mx-auto">
-              <h1 className="text-center text-white text-5xl md:text-7xl font-bold py-10 mb-6">Sobre nós</h1>
+              <h1 className="text-center text-white text-4xl md:text-5xl lg:text-7xl font-bold py-10 md:mb-6">Sobre nós</h1>
               <div className="flex flex-col mb-6 lg:mb-0">
                 <div className="mx-auto">
-                  <h2 className="text-center text-white text-xl xl:text-2xl font-bold py-5 lg:py-10 mx-10 lg:mx-auto lg:w-4/5">Washington e Raquel Alencar são cofundadores da WR Consultoria, referência em desenvolvimento organizacional e de pessoas. Especialistas em performance e produtividade, lideram soluções personalizadas que transformam empresas por meio de pessoas bem capacitadas, atuando como parceiros estratégicos para elevar resultados e fortalecer ambientes de trabalho eficientes e colaborativos.</h2>
+                  <h2 className="text-center text-white text-lg lg:text-xl xl:text-2xl font-bold py-5 lg:py-10 mx-10 lg:mx-auto lg:w-4/5">Washington e Raquel Alencar são cofundadores da WR Consultoria, referência em desenvolvimento organizacional e de pessoas. Especialistas em performance e produtividade, lideram soluções personalizadas que transformam empresas por meio de pessoas bem capacitadas, atuando como parceiros estratégicos para elevar resultados e fortalecer ambientes de trabalho eficientes e colaborativos.</h2>
                 </div>
               </div>
               <div className="flex flex-col-reverse lg:grid lg:grid-cols-2 mb-6 lg:mb-0">
                 <div className="mx-auto">
-                  <h2 className="text-center text-white text-xl xl:text-2xl font-bold py-5 lg:py-10 mx-10 lg:mx-auto lg:w-4/5 mt-24 lg:mt-0">Raquel Alencar atua como consultora e palestrante em diversas áreas da neurociência, com foco em gestão, neurobranding, neuromarketing e saúde corporativa. Além de desenvolver estratégias para otimizar processos e fortalecer marcas, Raquel oferece treinamento em mindfulness e inteligência emocional, promovendo o bem-estar e a saúde mental dos colaboradores. Sua abordagem combina ciência e práticas inovadoras para impulsionar a eficiência organizacional e o desenvolvimento humano nas empresas.</h2>
+                  <h2 className="text-center text-white text-lg lg:text-xl xl:text-2xl font-bold py-5 lg:py-10 mx-10 lg:mx-auto lg:w-4/5 mt-24 lg:mt-0">Raquel Alencar atua como consultora e palestrante em diversas áreas da neurociência, com foco em gestão, neurobranding, neuromarketing e saúde corporativa. Além de desenvolver estratégias para otimizar processos e fortalecer marcas, Raquel oferece treinamento em mindfulness e inteligência emocional, promovendo o bem-estar e a saúde mental dos colaboradores. Sua abordagem combina ciência e práticas inovadoras para impulsionar a eficiência organizacional e o desenvolvimento humano nas empresas.</h2>
                 </div>
                 <div className="flex flex-col">
                   <div className="flex flex-col rounded w-4/5 h-72 sm:w-96 lg:h-full lg:w-11/12 my-auto mx-auto relative">
@@ -277,14 +279,14 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="mx-auto">
-                  <h2 className="text-center text-white text-xl xl:text-2xl font-bold py-5 lg:py-10 mx-10 lg:mx-auto lg:w-4/5 mt-24 lg:mt-0">Washington Alencar atua como consultor e palestrante com mais de 15 anos de experiência liderando equipes e conduzindo treinamentos. Mestre em Educação, é Especialista em gestão de pessoas, liderança e alta performance. Sua trajetória é marcada por um compromisso contínuo com o desenvolvimento humano e organizacional. Washington capacita profissionais para alcançar seu máximo potencial, e entre suas experiências, destaca-se o curso &quot;Space Experience&quot; na NASA, focado em estratégias disruptivas e aprendizagem ativa.</h2>
+                  <h2 className="text-center text-white text-lg lg:text-xl xl:text-2xl font-bold py-5 lg:py-10 mx-10 lg:mx-auto lg:w-4/5 mt-16 lg:mt-0">Washington Alencar atua como consultor e palestrante com mais de 15 anos de experiência liderando equipes e conduzindo treinamentos. Mestre em Educação, é Especialista em gestão de pessoas, liderança e alta performance. Sua trajetória é marcada por um compromisso contínuo com o desenvolvimento humano e organizacional. Washington capacita profissionais para alcançar seu máximo potencial, e entre suas experiências, destaca-se o curso &quot;Space Experience&quot; na NASA, focado em estratégias disruptivas e aprendizagem ativa.</h2>
                 </div>
               </div>
             </div>
           </div>
           <div className="h-fit w-full pb-20" id="screen-3">
-            <h1 className="text-center text-5xl md:text-7xl font-bold py-10">Contato</h1>
-            <h2 className="text-center text-2xl md:text-4xl font-semiboold py-4">Você pode nos encontrar por aqui:</h2>
+            <h1 className="text-center text-4xl md:text-5xl lg:text-7xl font-bold py-10">Contato</h1>
+            <h2 className="text-center text-base md:text-2xl lg:text-4xl font-semiboold py-4">Você pode nos encontrar por aqui:</h2>
             <section className="max-w-9xl flex flex-col mx-auto">
               <a className="border-4 border-[#81a64e] rounded w-4/5 md:w-128 h-32 mx-auto mt-4 bg-[#81a64e] flex items-center cursor-pointer hover:bg-gray-600 transition-all" href="https://wa.me/551533185825?text=Quero%20saber%20mais%20sobre%20como%20a%20WR%20Consultoria%20pode%20me%20ajudar!" target="_blank">
                 <Image
@@ -329,7 +331,7 @@ export default function Home() {
           </div>
           <div className="h-fit w-full bg-[#81a64e]" id="screen-4">
             <div className="max-w-9xl mx-auto pb-10">
-              <h1 className="text-center text-white text-5xl xl:text-7xl font-bold py-10">Algumas empresas parceiras</h1>
+              <h1 className="text-center text-white text-4xl md:text-5xl xl:text-7xl font-bold py-10 mx-2">Algumas empresas parceiras</h1>
               <section className="grid grid-cols-3 mx-auto max-w-5xl">
                 <div className="w-36 h-24 md:w-48 md:h-32 mx-auto flex justify-center items-center">
                   <Image
@@ -381,7 +383,7 @@ export default function Home() {
                 Contato
               </a>
             </div>
-            <div className="border-b-2 w-full h-16 flex justify-center align-center" onClick={() => {setMobileMenuVisible(false); scrollToEnd()}}>
+            <div className="border-b-2 w-full h-16 flex justify-center align-center" onClick={() => { setMobileMenuVisible(false); scrollToEnd() }}>
               <a className="font-semibold text-white text-xl m-auto">
                 Parcerias
               </a>
