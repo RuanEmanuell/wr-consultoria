@@ -277,7 +277,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="mx-auto">
-                  <h2 className="text-center text-white text-xl xl:text-2xl font-bold py-5 lg:py-10 mx-10 lg:mx-auto lg:w-4/5 mt-24 lg:mt-0">Washington Alencar atua como consultor e palestrante com mais de 15 anos de experiência liderando equipes e conduzindo treinamentos. Mestre em Educação, é Especialista em gestão de pessoas, liderança e alta performance. Sua trajetória é marcada por um compromisso contínuo com o desenvolvimento humano e organizacional. Washington capacita profissionais para alcançar seu máximo potencial, e entre suas experiências, destaca-se o curso "Space Experience" na NASA, focado em estratégias disruptivas e aprendizagem ativa.</h2>
+                  <h2 className="text-center text-white text-xl xl:text-2xl font-bold py-5 lg:py-10 mx-10 lg:mx-auto lg:w-4/5 mt-24 lg:mt-0">Washington Alencar atua como consultor e palestrante com mais de 15 anos de experiência liderando equipes e conduzindo treinamentos. Mestre em Educação, é Especialista em gestão de pessoas, liderança e alta performance. Sua trajetória é marcada por um compromisso contínuo com o desenvolvimento humano e organizacional. Washington capacita profissionais para alcançar seu máximo potencial, e entre suas experiências, destaca-se o curso &quot;Space Experience&quot; na NASA, focado em estratégias disruptivas e aprendizagem ativa.</h2>
                 </div>
               </div>
             </div>
