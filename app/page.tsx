@@ -24,7 +24,7 @@ export default function Home() {
       <div className="flex flex-col">
         <nav
           className="w-full h-16 bg-[#81a64e]" id="navbar">
-          <section className="bg-white flex flex-row justify-between w-full fixed top-0 left-0 h-16">
+          <section className="bg-white flex flex-row justify-between w-full fixed top-0 left-0 h-16 z-50">
             <Image
               src="/logo-default.png"
               className="w-8 h-8 my-auto mx-4"
