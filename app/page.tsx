@@ -5,20 +5,7 @@ import "./globals.css";
 import { useState, useEffect } from "react";
 
 export default function Home() {
-  const [navbarHeight, setNavbarHeight] = useState<number>(64);
   const [mobileMenuVisible, setMobileMenuVisible] = useState<boolean>(false);
-
-  useEffect(() => {
-    document.addEventListener("scroll", () => {
-      setTimeout(() => {
-        if (window.scrollY > 64) {
-          setNavbarHeight(0)
-        } else {
-          setNavbarHeight(64);
-        }
-      }, 200);
-    });
-  }, []);
 
   useEffect(() => {
     if (mobileMenuVisible) {
@@ -37,7 +24,7 @@ export default function Home() {
       <div className="flex flex-col">
         <nav
           className="w-full h-16 bg-[#81a64e]" id="navbar">
-          <section className="bg-white flex flex-row justify-between transition-all ease-in-out duration-500 w-full fixed" style={{ height: `${navbarHeight}px`, opacity: navbarHeight == 0 ? "0" : "1" }}>
+          <section className="bg-white flex flex-row justify-between w-full fixed top-0 left-0 h-16">
             <Image
               src="/logo-default.png"
               className="w-8 h-8 my-auto mx-4"
@@ -390,7 +377,7 @@ export default function Home() {
             </div>
             <Image
               src="/logo.png"
-              className="w-32 h-32 m-4 absolute bottom-0 right-0"
+              className="w-24 h-24 m-4 absolute bottom-2 right-0"
               alt="Logo"
               width={1000}
               height={1000}
