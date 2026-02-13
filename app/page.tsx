@@ -87,7 +87,7 @@ export default function Home() {
                     width={10000}
                     height={10000}
                   />
-                  <h2 className="text-center text-white text-2xl lg:text-xl xl:text-2xl 2xl:text-3xl font-bold py-2 mx-10">Somos uma empresa dedicada a trazer inovação e eficiência para o seu negócio. Nossa missão é ajudar empresas a alcançarem o máximo de produtividade, bem-estar e desempenho com soluções personalizadas e focadas nos resultados. Melhore os resultados da sua empresa agora, de onde você estiver. </h2>
+                  <h2 className="text-center text-white text-2xl lg:text-xl xl:text-2xl 2xl:text-3xl font-bold py-2 mx-10">Somos uma empresa que acredita que bons resultados começam com pessoas bem direcionadas e processos inteligentes. Ajudamos empresas a trabalhar melhor, com mais produtividade, bem-estar e eficiência, por meio de soluções personalizadas e focadas no que realmente importa: resultado.</h2>
                   <a className="bg-white rounded-full w-3/4 md:w-96 h-32 mx-auto mt-4 bg-[#81a64e] flex justify-center items-center cursor-pointer text-2xl xl:text-3xl text-[#81a64e] font-bold text-center  hover:bg-gray-600 hover:text-white transition-all" href="https://wa.me/551533185825?text=Quero%20saber%20mais%20sobre%20como%20a%20WR%20Consultoria%20pode%20me%20ajudar!" target="_blank">
                     <h4 className="mx-auto px-5">Agende já sua reunião e conheça a WR</h4>
                   </a>
@@ -95,7 +95,7 @@ export default function Home() {
                 <Image
                   src="/smartphone.png"
                   className="w-128 md:w-144 mx-auto"
-                  alt="Logo"
+                  alt="Foto de um mão segurando um celular"
                   width={10000}
                   height={10000}
                 />
@@ -106,53 +106,33 @@ export default function Home() {
             <h1 className="text-center text-5xl md:text-7xl font-bold py-10">Serviços</h1>
             <div className="grid grid-cols-2 xl:grid-cols-4 pb-20 mx-2 md:mx-10 2xl:mx-auto max-w-9xl mx-auto">
               <section className="border-2 rounded min-h-80 p-4 m-2 flex flex-col align-center">
-                <h4 className="font-semibold text-xl lg:text-3xl text-center">📊</h4>
-                <h4 className="font-semibold text-xl lg:text-3xl text-center mb-4">Gestão eficiente</h4>
-                <p className="my-auto text-center">Solucionamos desafios de gestão com estratégias inovadoras para otimizar processos, economizar tempo e aumentar a produtividade para garantir uma gestão integrada e eficiente.</p>
+                <h4 className="font-semibold text-xl lg:text-3xl text-center">🎤</h4>
+                <h4 className="font-semibold text-xl lg:text-3xl text-center mb-4">Palestras</h4>
+                <p className="my-auto text-center">Nossas palestras vão além da inspiração. Elas provocam reflexão, alinham mentalidade e entregam conteúdo prático, aplicável desde o primeiro dia. Visão estratégica, tendências, comportamento e performance conectados à sua realidade.</p>
               </section>
               <section className="border-2 rounded min-h-80 p-4 m-2 flex flex-col align-center">
-                <h4 className="font-semibold text-xl lg:text-3xl text-center">🏥</h4>
-                <h4 className="font-semibold text-xl lg:text-3xl text-center mb-4">Saúde Corporativa</h4>
-                <p className="my-auto text-center">Oferecemos programas exclusivos de bem-estar corporativo, focados na saúde física e mental dos colaboradores, pois empresas mais saudáveis são mais produtivas e engajadas.</p>
+                <h4 className="font-semibold text-xl lg:text-3xl text-center">👥</h4>
+                <h4 className="font-semibold text-xl lg:text-3xl text-center mb-4">Mentoria</h4>
+                <p className="my-auto text-center">Acompanhamento próximo e personalizado para líderes e executivos. Um espaço seguro e estratégico para pensar melhor e decidir melhor, com visão externa, prática e experiente para acelerar resultados.</p>
               </section>
               <section className="border-2 rounded min-h-80 p-4 m-2 flex flex-col align-center">
-                <h4 className="font-semibold text-xl lg:text-3xl text-center">🧠</h4>
-                <h4 className="font-semibold text-xl lg:text-3xl text-center mb-4">Neurociência nos Negócios</h4>
-                <p className="my-auto text-center">Aplicamos técnicas neurocientíficas para melhorar a performance empresarial. Com base em estudos de comportamento humano e processos cognitivos, ajudamos empresas a tomarem decisões mais assertivas.</p>
+                <h4 className="font-semibold text-xl lg:text-3xl text-center">🧩</h4>
+                <h4 className="font-semibold text-xl lg:text-3xl text-center mb-4">Consultoria</h4>
+                <p className="my-auto text-center">Prática, estruturada e orientada à execução. Diagnóstico claro, estruturação de processos, planos de ação objetivos com foco em eficiência, performance e crescimento sustentável.</p>
               </section>
               <section className="border-2 rounded min-h-80 p-4 m-2 flex flex-col align-center">
-                <h4 className="font-semibold text-xl lg:text-3xl text-center">🤝</h4>
-                <h4 className="font-semibold text-xl lg:text-3xl text-center mb-4">Relacionamento com Clientes</h4>
-                <p className="my-auto text-center">Aprimoramos a comunicação e o atendimento ao cliente, garantindo experiências positivas e fidelização. Acreditamos que um bom relacionamento é a chave para o sucesso duradouro nos negócios.</p>
+                <h4 className="font-semibold text-xl lg:text-3xl text-center">🎯</h4>
+                <h4 className="font-semibold text-xl lg:text-3xl text-center mb-4">Conselho</h4>
+                <p className="my-auto text-center">Pensado para empresas que já cresceram e precisam de visão estratégica, governança e decisões maduras. Apoio estratégico recorrente para crescimento, expansão e movimentos estratégicos com segurança e responsabilidade.</p>
               </section>
             </div>
           </div>
           <div className="h-fit w-full bg-[#81a64e] pb-4 xl:pb-10" id="screen-2">
             <div className="max-w-7xl mx-auto">
               <h1 className="text-center text-white text-5xl md:text-7xl font-bold py-10 mb-6">Sobre nós</h1>
-              <div className="flex flex-col lg:grid lg:grid-cols-2 mb-6 lg:mb-0">
-                <div className="flex flex-col">
-                  <div className="flex flex-col rounded w-4/5 h-72 sm:w-96 md:h-full lg:w-11/12 my-auto mx-auto relative">
-                    <Image
-                      src="/washington_e_raquel.jpeg"
-                      className="w-full h-full mx-auto object-cover"
-                      alt="Logo"
-                      width={10000}
-                      height={10000}
-                    />
-                    <section className="flex flex-col bg-white w-full xl:w-full mx-auto pb-2">
-                      <figcaption className="text-center font-semibold text-2xl mt-2">
-                        Washington Alencar e Raquel Alencar
-                      </figcaption>
-                      <figcaption className="text-center text-gray-500 font-semibold text-lg mx-2">
-                        Cofundadores da WR Consultoria
-                      </figcaption>
-                    </section>
-                  </div>
-                </div>
+              <div className="flex flex-col mb-6 lg:mb-0">
                 <div className="mx-auto">
-                  <h2 className="text-center text-white text-xl xl:text-2xl font-bold py-5 lg:py-10 mx-10 lg:mx-auto lg:w-4/5 mt-24 md:mt-0">Washington Alencar e Raquel Alencar são os cofundadores da WR Consultoria, uma empresa renomada na área de desenvolvimento organizacional e de pessoas. Com vasta experiência e conhecimento, eles se destacam como especialistas em transformar a performance e a produtividade das empresas através de pessoas bem capacitadas.
-                    A WR Consultoria, sob a liderança de Washington e Raquel, oferece soluções personalizadas que atendem às necessidades específicas de cada cliente. Eles são parceiros estratégicos para qualquer empresa que busca elevar seu nível de desempenho, promovendo um ambiente de trabalho mais eficiente e colaborativo.</h2>
+                  <h2 className="text-center text-white text-xl xl:text-2xl font-bold py-5 lg:py-10 mx-10 lg:mx-auto lg:w-4/5">Washington e Raquel Alencar são cofundadores da WR Consultoria, referência em desenvolvimento organizacional e de pessoas. Especialistas em performance e produtividade, lideram soluções personalizadas que transformam empresas por meio de pessoas bem capacitadas, atuando como parceiros estratégicos para elevar resultados e fortalecer ambientes de trabalho eficientes e colaborativos.</h2>
                 </div>
               </div>
               <div className="flex flex-col-reverse lg:grid lg:grid-cols-2 mb-6 lg:mb-0">
@@ -164,7 +144,7 @@ export default function Home() {
                     <Image
                       src="/raquel.jpeg"
                       className="w-full h-full mx-auto object-cover"
-                      alt="Logo"
+                      alt="Foto da Raquel Alencar"
                       width={10000}
                       height={10000}
                     />
@@ -181,7 +161,7 @@ export default function Home() {
                     <Image
                       src="/washington.jpeg"
                       className="w-full h-full mx-auto object-cover"
-                      alt="Logo"
+                      alt="Foto do Washington Alencar"
                       width={10000}
                       height={10000}
                     />
@@ -196,7 +176,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="mx-auto">
-                  <h2 className="text-center text-white text-xl xl:text-2xl font-bold py-5 lg:py-10 mx-10 lg:mx-auto lg:w-4/5 mt-24 lg:mt-0">Washington Alencar atua como consultor e palestrante com mais de 12 anos de experiência liderando equipes e conduzindo treinamentos. Especialista em gestão de pessoas, liderança e alta performance, sua trajetória é marcada por um compromisso contínuo com o desenvolvimento humano e organizacional. Washington capacita profissionais para alcançar seu máximo potencial, e entre suas experiências, destaca-se o curso “Space Experience” na NASA, focado em estratégias disruptivas e aprendizagem ativa.</h2>
+                  <h2 className="text-center text-white text-xl xl:text-2xl font-bold py-5 lg:py-10 mx-10 lg:mx-auto lg:w-4/5 mt-24 lg:mt-0">Washington Alencar atua como consultor e palestrante com mais de 15 anos de experiência liderando equipes e conduzindo treinamentos. Mestre em Educação, é Especialista em gestão de pessoas, liderança e alta performance. Sua trajetória é marcada por um compromisso contínuo com o desenvolvimento humano e organizacional. Washington capacita profissionais para alcançar seu máximo potencial, e entre suas experiências, destaca-se o curso "Space Experience" na NASA, focado em estratégias disruptivas e aprendizagem ativa.</h2>
                 </div>
               </div>
             </div>
@@ -209,7 +189,7 @@ export default function Home() {
                 <Image
                   src="/whatsapp.png"
                   className="w-16 h-16 ml-4"
-                  alt="Logo"
+                  alt="Whatsapp"
                   width={10000}
                   height={10000}
                 />
@@ -222,7 +202,7 @@ export default function Home() {
                 <Image
                   src="/instagram.png"
                   className="w-16 h-16 ml-4"
-                  alt="Logo"
+                  alt="Instagram"
                   width={10000}
                   height={10000}
                 />
@@ -235,7 +215,7 @@ export default function Home() {
                 <Image
                   src="/email.png"
                   className="w-16 h-12 ml-4"
-                  alt="Logo"
+                  alt="Email"
                   width={10000}
                   height={10000}
                 />
@@ -254,7 +234,7 @@ export default function Home() {
                   <Image
                     src="/educacao-adventista.png"
                     className="w-2/3 h-full"
-                    alt="Logo"
+                    alt="Logo da Educação Adventista"
                     width={10000}
                     height={10000}
                   />
@@ -263,7 +243,7 @@ export default function Home() {
                   <Image
                     src="/international-school.png"
                     className="w-2/3 h-full"
-                    alt="Logo"
+                    alt="Logo da International School"
                     width={10000}
                     height={10000}
                   />
@@ -272,7 +252,7 @@ export default function Home() {
                   <Image
                     src="/viaje-brazil.png"
                     className="w-2/3 h-full"
-                    alt="Logo"
+                    alt="Logo da Viaje Brazil"
                     width={10000}
                     height={10000}
                   />
