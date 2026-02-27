@@ -1,5 +1,6 @@
 import './globals.css';
 import { Metadata } from 'next';
+import { Analytics } from "@vercel/analytics/next"
 
 export const metadata: Metadata = {
   title: 'WR Consultoria', 
@@ -13,6 +14,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
         <link rel="icon" href="/logo-default.png" />
       </head>
       <body>{children}</body>
+      <Analytics />
     </html>
   );
 };
