@@ -3,7 +3,7 @@
 ## WR-Consulting
 
 ### What is this? 🤔 
-A landing page for a Consulting Company, project made as freelance.
+A birthday gift for my girlfriend Ana Laura, in the format of a website
 
 ### Where can I acess it? 🖥
 You can acess it <a href="https://www.wr-consultoria.com">here</a>
@@ -24,9 +24,7 @@ You can acess it <a href="https://www.wr-consultoria.com">here</a>
      Access http://localhost:3000 in your browser.
     
 ### Here are some images of the project running ⚡️: 
-![image](https://github.com/user-attachments/assets/ff4ae920-22f0-41e3-98b7-52cabafb414d)
-![image](https://github.com/user-attachments/assets/b780b6ae-3e80-4d94-a3ab-f5b14f38a2af)
-
-
+<img width="1902" height="953" alt="image" src="https://github.com/user-attachments/assets/f3457e9d-bf17-40f6-bfbd-3bbeccf82219" />
+<img width="1897" height="952" alt="image" src="https://github.com/user-attachments/assets/4e631b68-4d73-4cf2-adfd-1a318c467bed" />
 
 
