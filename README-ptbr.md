@@ -1,4 +1,4 @@
-# Veja a versão em Português <a href="README-ptbr.md">aqui</a>
+# Check the English version <a href="README.md"> here</a>
 
 ## WR-Consultoria
 
